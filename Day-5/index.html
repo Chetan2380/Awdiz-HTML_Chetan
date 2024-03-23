@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Day-5 Assignment</title>
+
+    <style>
+        table,th,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            color: rgb(244, 8, 36);
+        }
+
+        th{
+            color: rgb(56, 145, 43);
+            font-size: 26px;
+        }
+
+        .myClass{
+            color: red;
+            border: 8px solid green;
+        }
+
+        #myId{
+            color: red;
+            border: 8px solid green;
+        }
+    </style>
+</head>
+<body>
+    <h2>Normal table (using internal css style.)</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Sr. No</th>
+                <th>Name</th>
+                <th>City</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Virat</td>
+                <td>Mumbai</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Rohit</td>
+                <td>Mumbai</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Rahul</td>
+                <td>Mumbai</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2 style="color: brown;">Different border types.</h2>
+    <p><span style="border: 5px solid black;">Testing block level tags border using span.</span></p>
+    <label style="border: 5px solid black;">Testing inline level tags border using label.</label>
+
+    <h3 style="border: 1px solid black;">Testing solid border.</h3>
+    <h3 style="border: 1px dashed black;">Testing dashed border.</h3>
+    <h3 style="border: 1px dotted black;">Testing dotted border.</h3>
+    <h3 style="border: 3px double black;">Testing double border.</h3>
+    <h3 style="border: 15px groove rebeccapurple;">Testing dashed border.</h3>
+    <h3 style="border: 15px ridge rebeccapurple;">Testing dashed border.</h3>
+    <h3 style="border: 15px inset rebeccapurple;">Testing inset border.</h3>
+    <h3 style="border: 15px outset rebeccapurple;">Testing outset border.</h3>
+
+    <h2>Table with rowspan and colspan (using internal css style.).</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Sr. No</th>
+                <th>Name</th>
+                <th>City</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Virat</td>
+                <td rowspan="3">Mumbai</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Rohit</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Rahul</td>
+            </tr>
+
+            <tr>
+                <td colspan="3" style="text-align: center;">Sport : Cricket</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Unordered list -->
+    <h2>Unordered list</h2>
+    <ul>
+        <li>Virat</li>
+        <li>Rohit</li>
+        <li>Rahul</li>
+        <li>Dhoni</li>
+    </ul>
+
+    <!-- Ordered list -->
+    <h2>Ordered list</h2>
+    <ol>
+        <li>Virat</li>
+        <li>Rohit</li>
+        <li>Rahul</li>
+        <li>Dhoni</li>
+    </ol>
+
+    <!-- Description list -->
+    <h2>Description list</h2>
+    <dl>
+        <dt>Awdiz Institute course 1</dt>
+        <dd>Full (MERN) stack developement</dd>
+        <dt>Awdiz Institute course 2</dt>
+        <dd>Cisco Certified Network Associate</dd>
+        <dt>Awdiz Institute course 3</dt>
+        <dd>SEO SMM Specialization Course</dd>
+        <dt>Awdiz Institute course 4</dt>
+        <dd>Windows Administrator L1 Engineer</dd>
+    </dl>
+
+    <h2>Class attribute.</h2>
+    <p class="myClass">Testing class attribute.</p>
+    <h3 class="myClass">Testing class attribute again.</h3>
+
+    <h2>ID attribute.</h2>
+    <p id="myId">Testing ID attribute.</p>
+
+    <h2>Input and button tags.</h2>
+    <input placeholder="Mobile Number." style="height: 30px; border: none; outline: none; background-color: gainsboro;"/>
+    <button style="border: none; height: 30px;">Submit</button>
+</body>
+</html>
