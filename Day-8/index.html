@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Day 8 Assignment</title>
+
+        <style>
+            .hover{
+                border: 2px solid black;
+                width: 200px;
+                height: 200px;
+            }
+
+            .hover:hover{
+                border: 4px solid red;
+            }
+
+            .text:valid{
+                background-color: rgb(76, 246, 82);
+            }
+
+            .text:invalid{
+                background-color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <h2><i style="color: red;">Fieldset and Legend</i> tag.</h2>
+        <form>
+            <fieldset>
+                <legend>SIGN IN</legend>
+                <label>Email:</label><br/>
+                <input type="text"/><br/><br/>
+                <label>Password:</label><br/>
+                <input type="text"/><br/><br/>
+                <input type="submit"/>
+            </fieldset>
+        </form>
+
+        <h2>Value atrribute with <i style="color: red;">readonly, disabled</i> and other different input types.</h2>
+
+        <input type="submit" value="Sign In.."/><br/><br/>
+        <input type="text" value="Virat18" /><br/><br/>
+        <input type="radio" value="Virat" /> <label style="color: gray;">Comment: Value is Virat</label><br/><br/>
+        <input type="radio" value="Rohit" /> <label style="color: gray;">Comment: Value is Rohit</label><br/><br/>
+        <input type="range" min="1" max="10" value="8" /><br/><br/>
+
+        <label><b style="color: red;"><i>Readonly   &nbsp;&nbsp;&nbsp;</i></b></label><input type="text" value="Virat18" readonly /><br/><br/>
+        <label><b style="color: red;"><i>Disabled   &nbsp;&nbsp;&nbsp;&nbsp;</i></b></label><input type="text" value="Virat18" disabled />
+
+        <h2>Size atrribute.</h2>
+
+        <input type="text" size="" placeholder="Default size."/><br/><br/>
+        <input type="text" size="30" placeholder="Size is 30."/>
+
+        <h2><i style="color: red;">Maxlength, min and max (validation)</i> atrribute.</h2>
+        <input type="text" maxlength="6" placeholder="Maxlength is 6."/><br/><br/>
+
+        <form>
+            <input type="number" min="1" max="120"/>  <label style="color: gray;">Comment: Min is 1 and max is 120.</label><br/><br/>
+            <input type="submit" />
+        </form>
+
+        <h2><i style="color: red;">Hover, Pattern and Autofocus</i> attributes.</h2>
+        <div class="hover">Testing hover.</div>
+
+        <h3>Pattern</h3>
+        <form>
+            <input type="text" pattern="\w{3,16}" required class="text"/>  <label style="color: gray;">Comment: Words range is 3 - 16.</label><br/><br/>
+            <input type="password" pattern="\d{5,5}" required  class="text"/>  <label style="color: gray;">Comment: Password length should be exact 5.</label><br/><br/>
+            <input type="submit" />
+        </form>
+
+        <h3>Autofocus</h3>
+        <input type="text" /><br/><br/>
+        <input type="text" autofocus/>  <label style="color: gray;">Comment: 2nd textbox is autofocused.</label><br/><br/>
+        <input type="text" />
+
+        <h2><i style="color: red;">Title and novalidate</i> atrribute.</h2>
+        <span title="Hi, you just hovered the this text."><b>Testing title.</b></span><br/><br/>
+
+        <form novalidate>
+            <label>Email:</label><br/>
+            <input type="email" required/><br/><br/>
+            <label>Password:</label><br/>
+            <input type="password" required/><br/><br/>
+            <input type="submit" />
+        </form>
+
+        <h2><i style="color: red;">Canvas and SVG</i> tags.</h2>
+
+        <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;"></canvas><br/><br/>
+
+        <svg width="100" height="100">
+            <circle
+              cx="50"
+              cy="50"
+              r="40"
+              stroke="red"
+              strokewidth="4"
+              fill="aqua"
+            />
+        </svg>    
+    </body>
+</html>
