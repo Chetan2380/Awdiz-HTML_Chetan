@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Day 9 Assignment</title>
+
+        <link rel="stylesheet" href="../Day-9/index.css"/>
+
+        <link rel="icon" href="../images/virat-kohli.png" />
+
+        <style>
+            *{
+                color: royalblue;
+                font-family: 'Times New Roman', Times, serif;
+                border: 2px solid black;
+                text-align: center;
+                /* padding: 0;
+                margin: 0; */
+            }
+
+            #myId{
+                color: red;
+            }
+
+            .myClass{
+                color: blue;
+            }
+
+            p.myClass{
+                color: aquamarine;
+            }
+            
+            span.myClass{
+                color: black;
+            }
+
+            div{
+                color: blueviolet;
+            }
+
+            h3, h4{
+                color: brown;
+            }
+
+            p.intro{
+                color: rgb(0, 255, 21);
+            }
+
+            .mycolorclass{
+                color: brown;
+            }
+
+            #mycolorid{
+                color: blueviolet;
+            }
+
+            .media{
+                border: none;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1 class="media">Media tags</h1>
+        <h2 class="media">Image tag.</h2>
+        <img alt="virat" width="210" height="210" src="../images/virat-kohli.png"/><br/><br/>
+
+        <h2 class="media">Video tag.</h2>
+        <video width="500" controls autoplay muted>
+            <source src="../media/Sample.mp4"/>
+        </video><br/><br/>
+
+        <h2 class="media">Audio tag.</h2>
+        <audio controls>
+            <source src="../media/dramatic-reveal-21469.mp3"/>
+        </audio><br/><br/>
+
+        <h2 class="media">Iframe tag with youtube video link.</h2>
+        <iframe width="420" height="315" src="https://www.youtube.com/embed/oGneAab3e88?si=FVf-Lak2_X-MqrPo"></iframe>
+
+        <h1>Different CSS types.</h1>
+        <h1>Internal css with different html tags using class, id, element, *, element element, element.class</h1>
+
+        <h2>Testing * and checking that it get changes with element.class</h2>
+        <p class="intro">Changing * css with element.class</p>
+        <h1 class="intro">* css type style:   H1</h1>
+        <span class="intro">* css type style: SPAN</span>
+        <p class="intro">Changing * css with element.class</p>
+        <p class="intro">Changing * css with element.class</p>
+        <p class="intro">Changing * css with element.class</p>
+
+        <h1 id="myId">Testing id</h1>
+        <h1 class="myClass">Testing Class.</h1>
+        <p class="myClass">Testing element.class</p>
+        <span class="myClass">Testing element.class</span>
+
+        <div>Testing element.</div>
+
+        <h3>Testing element, element</h3>
+        <h4>Testing element, element</h4>
+
+        <h2>Inline Styling/CSS and External Css.</h2>
+
+        <div style="background-color: blueviolet; color: white;border: 2px solid black;">Testing inline styling.</div>
+
+        <p class="external">Testing external css.</p>
+        <p class="external">Testing external css.</p>
+
+        <h1>Different scenarios (priorities) by shuffling positions of <i style="color: brown;">class</i>, <i style="color: blueviolet;">id</i> and <i style="color: red;">style</i>.</h1>
+        <h3 class="mycolorclass" id="mycolorid" style="color: red;">Class Id Inlinestyle = Inline style</h3>
+        <h3 id="mycolorid" style="color: red;" class="mycolorclass">Id Inlinestyle Class= Inline style</h3>
+        <h3 style="color: red;" class="mycolorclass" id="mycolorid">Inlinestyle Class Id= Inline style</h3>
+        <h3 class="mycolorclass" style="color: red;">Class Inlinestyle = Inline style</h3>
+        <h3 style="color: red;" class="mycolorclass">Inlinestyle Class = Inline style</h3>
+        <h3 id="mycolorid" style="color: red;">Id Inlinestyle = Inline style</h3>
+        <h3 style="color: red;" id="mycolorid">Inlinestyle Id = Inline style</h3>
+        <h3 class="mycolorclass" id="mycolorid">Class Id = Id</h3>
+        <h3 id="mycolorid" class="mycolorclass">Id Class = Id</h3>
+        <h3 class="mycolorclass">Only Class = Class element styling will not work with id.</h3>
+
+        <h2>Conclusion: Priorities are as Inline style, Id, Class.</h2>
+    </body>
+</html>
