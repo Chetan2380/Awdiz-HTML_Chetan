@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUMA.COM | Forever Faster</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="icon" href="https://cdn.wallpapersafari.com/29/35/P6Uz7J.jpg" />
+
+    <style>
+        * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+
+      .fullpage {
+        margin: auto;
+        width: 100%;
+      }
+
+      a{
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+        font-size: 16px;
+      }
+
+      .Navbar1{
+        height: 44px;
+        /* border: 2px solid red; */
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        font-weight: 700;
+        color: white;
+        background-color: rgba(138,115,80);
+      }
+
+      .Navbar2{
+        height: 80px;
+        /* border: 2px solid red; */
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 16px;
+        font-weight: 700;
+        color: white;
+        background-color: black;
+        padding-right: 32px;
+        line-height: 1.5;
+      }
+
+      .leftNavbar2{
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 22px;
+        font-weight: 500;
+      }
+
+      .rightNavbar2{
+        width: 20%;
+        outline-color: white;
+        border-color: white;
+        padding-left: 6px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+    
+      .search{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 50%;
+        border: 1px solid rgb(88,92,99);
+        opacity: 1;
+        width: 46%;
+        white-space: normal;
+        padding-left: 16px;
+        padding-right: 16px;
+        line-height: 1.5;
+        font-size: 16px;
+
+      }
+      .cartprof{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 65%;
+        /* border: 1px solid red; */
+        opacity: 1;
+        width: 48%;
+        white-space: normal;
+        font-size: 18px;
+      }
+
+      .cartprof div:hover{
+        width: 23%;
+        height: 32px;
+        border-radius: 50%;
+        background-color: #f4e9fc;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .Navbar3{
+        height: 100px;
+        /* border: 2px solid red; */
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 14px;
+        font-weight: 700;
+        color: white;
+        background-color: rgb(172,31,41);
+        padding: 16px;
+        line-height: 1.5;
+      }
+
+      .Navbar3 p:nth-child(1){
+        font-size: 20px;
+      }
+
+      .Navbar3 p:nth-child(2){
+        font-size: 16px;
+        font-weight: 700;
+      }
+
+      .Navbar3 p:nth-child(3){
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 2;
+      }
+
+      .Navbar1::before { 
+            content: "FREE DELEVERIES. FREE RETURNS."; 
+            animation: animate infinite 10000ms; 
+            padding-left: 10px; 
+        }
+
+        @keyframes animate { 
+            0% { 
+            content: "EXTRA 5% DISCOUNT FOR ALL ONLINE PAYMENTS"; 
+            } 
+
+            100% { 
+            content: "FREE DELEVERIES. FREE RETURNS."; 
+            } 
+
+        } 
+    </style>
+</head>
+<body>
+    <div class="fullpage">
+        <div class="Navbar">
+            <div class="Navbar1"> </div>
+            <div class="Navbar2">
+                <div class="leftNavbar2">
+                    <div style="height: 100%;"><img alt="icon" style="height: 100%; width: 100%;" src="https://cdn.wallpapersafari.com/29/35/P6Uz7J.jpg"/></div>
+                    <a href="/login">New</a>
+                    <a href="/login">Women</a>
+                    <a href="/login">Men</a>
+                    <a href="/login">Kids</a>
+                    <a href="/login">FENTY x PUMA</a>
+                    <a href="/login">Motosport</a>
+                    <a href="/login">Collaborations</a>
+                    <a href="/login">Sports</a>
+                    <a href="/login">Outlet</a>
+                </div>
+                <div class="rightNavbar2">
+                    <div class="search">
+                        <i class="fa-solid fa-magnifying-glass" style="color: white"></i><p>SEARCH</p>
+                        <!-- <input placeholder="&nbsp;&nbsp;Search" value="Search"/> -->
+                    </div>
+                    <div class="cartprof">
+                        <div><i class="fa-regular fa-heart"></i></div>
+                        <div><i class="fa-solid fa-cart-shopping"></i></div>
+                        <div><h3><i class="fa-regular fa-user"></i></h3></div>
+                    </div>
+                </div>
+            </div>
+            <div class="Navbar3">
+                <p>EXTRA 15% OFF*</p>
+                <p>*ON CLOTHING ABOVE ₹1999 | *ON FOOTWEAR ABOVE ₹3999</p>
+                <p>Auto-applied at checkout | *Exclusions apply</p>
+            </div>
+        </div>
+        <div><img width="100%" alt="bodyimg" src="https://i.ytimg.com/vi/XYiLxZTq1pY/maxresdefault.jpg"/></div>
+    </div>
+</body>
+</html>
