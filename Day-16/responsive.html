@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 16 Assignment</title>
+    <style>
+        .parentDiv{
+            width: 100%;
+            height: 300px;
+            border: 2px solid red;
+            background-color: blueviolet;
+            font-size: 30px;
+        }
+
+        @media screen and (min-width: 400px){
+            .parentDiv{
+                background-color: goldenrod;
+            }
+        }
+
+        .parentDiv1{
+            width: 100%;
+            height: 300px;
+            border: 2px solid red;
+            background-color: brown;
+            font-size: 30px;
+        }
+
+        @media screen and (max-width: 400px){
+            .parentDiv1{
+                background-color: red;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="parentDiv"> Testing media queries : min width 400px Main color: BlueViolet After min-width responsive : Goldenrod</div><br/>
+    <div class="parentDiv1"> Testing media queries : max width 400px Main color: Brown After min-width responsive : Red</div>
+</body>
+</html>
