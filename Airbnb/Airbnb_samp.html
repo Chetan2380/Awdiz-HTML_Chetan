@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Airbnb | Holiday rentals, cabins, beach houses & more</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <link rel="stylesheet" href="../Airbnb/imgdivs.css" />
     <link rel="icon" href="https://p7.hiclipart.com/preview/543/701/171/airbnb-logo-booking-com-sofar-sounds-airbnb-logo.jpg" />
 
     <style>
@@ -28,7 +28,7 @@
             /* border: 2px solid black; */
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
+            /* justify-content: space-between; */
         }
 
         #Navbar2{
@@ -194,8 +194,6 @@
             margin: auto;
             display: flex;
             align-items: center;
-            display: flex;
-            align-items: center;
             justify-content: space-between;
         }
 
@@ -284,6 +282,7 @@
           width: 100%;
           border-radius: 10px;
           margin-top: 10px;
+          background-size: cover;
           background-image: url("../images/ede7b8fc-9f6a-40ec-8f58-45b19d941a18.jpeg");
         }
 
@@ -316,7 +315,7 @@
         }
 
         .guestfav{
-            width: 90%;
+            max-width: 90%;
             padding-top: 10px;
             margin: auto;
             display: flex;
@@ -327,7 +326,7 @@
             text-align: center;
             /* border: 2px solid red; */
             border-radius: 20px;
-            width: 46%;
+            max-width: 46%;
             padding: 5px;
             font-size: 14px;
             font-weight: 550;
@@ -342,6 +341,10 @@
         #hrline{
             margin-top: 20px;
             color: rgb(235,235,235);
+        }
+
+        #anywheresearch{
+            display: none;
         }
 
        @media screen and (min-width: 900px) and (max-width: 1100px) {
@@ -364,19 +367,444 @@
             }
        }
 
-       #anyweek{
-            border: 1px solid grey; 
-            padding: 10px; 
-            width: 100%; 
-            border-radius: 25px;
-       }
 
-       @media screen and (max-width: 740px) {
-        #navigations,#logo,
-        #profile, #search {
-          display: none;
+       @media screen and (max-width: 750px) {
+            #logo, #navigations, #profile, #Navbar2, #filters_arrow {
+            display: none;
+            }
+
+            #anywheresearch{
+                /* border: 2px solid red; */
+                width: 100%;
+                margin-top: 15px;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+            }
+
+            #anyweek{
+                border: 1px solid rgb(223,223,223); 
+                width: 90%; 
+                border-radius: 35px;
+                height: 55px;
+                display: flex;
+                align-items: center;
+                box-shadow: 4px 4px 3px rgb(240,240,240);
+            }
+
+            #anyweek1{
+                    width: 30%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+            }
+
+            #anyweek1 > i{
+                font-size: 20px;
+            }
+
+            #hrline{
+                display: none;
+            }
+
+            #types{
+                width: 100%;
+            }
+
+            #types > div{
+                width: auto;
+            }
+
+            #types > div:nth-child(9),div:nth-child(10){
+            display: none;
+            }
+
+            #parentdiv{
+                width: 94%;
+                margin: auto;
+            }
+
+            #anyweektext{
+                font-size: 12px;
+                color: rgb(138,138,138);
+            }
+
+            #anyweektext1{
+                font-size: 14px;
+                font-weight: 700;
+
+            }
+
+            #filter{
+                border: 1px solid gray;
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            #fullpage_nav{
+                height: auto;
+                /* border: 2px solid black; */
+                margin: auto;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-top: -50px;
+            }
+    }
+
+    
+
+    @media screen and (min-width: 640px) and (max-width: 750px) {
+        #types > div:nth-child(9),div:nth-child(10),div:nth-child(8){
+            display: none;
+            }
+
+            #anyweek1{
+                width: 32%;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                padding-left: 20px;
+            }
+
+            #anyweek2{
+                padding-left: 10px;
+            }
+    }
+
+    @media screen and (min-width: 580px) and (max-width: 640px) {
+        #types > div:nth-child(9),div:nth-child(10),div:nth-child(8),div:nth-child(7){
+            display: none;
+            }
+
+            #anyweek1{
+                width: 35%;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                padding-left: 20px;
+            }
+
+            #anyweek2{
+                padding-left: 12px;
+            }
+    }
+
+    @media screen and (min-width: 460px) and (max-width: 580px) {
+        #types > div:nth-child(9),div:nth-child(10),div:nth-child(8),div:nth-child(7),div:nth-child(6){
+            display: none;
+            }
+
+            #anyweek1{
+                width: 40%;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                padding-left: 20px;
+            }
+
+            #anyweek2{
+                padding-left: 12px;
+            }
+
+    }
+
+    @media screen and (min-width: 460px) and (max-width: 496px) {
+
+            #anyweek1{
+                width: 44%;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                padding-left: 20px;
+            }
+
+            #anyweek2{
+                padding-left: 12px;
+            }
+
+            #filter{
+                margin-left: 10px;
+            }
+    }
+
+    @media screen and (min-width: 360px) and (max-width: 460px) {
+        #types > div:nth-child(9),div:nth-child(10),div:nth-child(8),div:nth-child(7),div:nth-child(6){
+            display: none;
+            }
+
+            #anyweek1{
+                width: 58%;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                padding-left: 20px;
+            }
+
+            #anyweek2{
+                padding-left: 12px;
+            }
+
+            #filter{
+                margin-left: 10px;
+            }
+    }
+
+    @media screen and (min-width: 750px) and (max-width: 950px) {
+        #types > div:nth-child(9),div:nth-child(10),div:nth-child(8),div:nth-child(7),div:nth-child(6){
+            display: none;
+            }
+
+            /* #types > div:nth-child(4){
+            display: none;
+            } */
+
+        #navigations{
+            display: none;
         }
+
+        #types{
+            width: 75%;
+            margin-right: 40px;
+        }
+
+        #filters_arrow{
+            width: 85%;
+            /* border: 2px solid black; */
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        #search{
+            width: 80%;
+        }
+
+        #profile{
+            width: 30%
+        }
+        
+    }
+
+    @media screen and (min-width: 1350px) and (max-width: 1500px) {
+        #types > div:nth-child(10){
+            display: none;
+            }
+
+            #types{
+                width: 70%;
+                margin-right: 40px;
+            }
+
+            #filters_arrow{
+            width: 30%;
+            /* border: 2px solid black; */
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+
+    }
+
+    @media screen and (min-width: 1250px) and (max-width: 1350px) {
+        #types > div:nth-child(9),div:nth-child(10){
+            display: none;
+            }
+
+            #types{
+                width: 65%;
+                margin-right: 40px;
+            }
+
+            #filters_arrow{
+            width: 35%;
+            /* border: 2px solid black; */
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        #navigations {
+        width: 27%;
+        /* border: 2px solid black; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
       }
+
+      #parentdiv{
+        width: 94%;
+      }
+
+      #search{
+            width:65%;
+        }
+
+    }
+
+    @media screen and (min-width: 1150px) and (max-width: 1250px) {
+        #types > div:nth-child(8),div:nth-child(9),div:nth-child(10){
+            display: none;
+            }
+
+            #types{
+                width: 60%;
+                margin-right: 40px;
+            }
+
+            #filters_arrow{
+            width: 40%;
+            /* border: 2px solid black; */
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        #navigations {
+        width: 30%;
+        /* border: 2px solid black; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      #search{
+            width: 70%;
+        }
+
+    }
+
+    @media screen and (min-width: 1050px) and (max-width: 1150px) {
+        #types > div:nth-child(7),div:nth-child(8),div:nth-child(9),div:nth-child(10){
+            display: none;
+            }
+
+            #types{
+                width: 55%;
+                margin-right: 40px;
+            }
+
+            #filters_arrow{
+            width: 45%;
+            /* border: 2px solid black; */
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        #navigations {
+        width: 35%;
+        /* border: 2px solid black; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      #profile{
+            width: 23%
+        }
+
+        #search{
+            width: 80%;
+        }
+    }
+
+    @media screen and (min-width: 950px) and (max-width: 1050px) {
+        #types > div:nth-child(6),div:nth-child(7),div:nth-child(8),div:nth-child(9),div:nth-child(10){
+            display: none;
+            }
+
+            #types{
+                width: 50%;
+                margin-right: 40px;
+            }
+
+            #filters_arrow{
+            width: 50%;
+            /* border: 2px solid black; */
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        #navigations {
+        width: 40%;
+        /* border: 2px solid black; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      #profile{
+            width: 30%
+        }
+
+        #search{
+            width: 80%;
+        }
+    }
+
+    @media screen and (min-width: 550px) and (max-width: 625px) {
+        .guestfav >p:nth-child(1){
+            max-width: 54%;
+        }
+    }
+
+    @media screen and (min-width: 900px) and (max-width: 975px) {
+        .guestfav >p:nth-child(1){
+            max-width: 54%;
+        }
+    }
+
+    @media screen and (min-width: 1100px) and (max-width: 1263px) {
+        .guestfav >p:nth-child(1){
+            max-width: 56%;
+        }
+    }
+
+    @media screen and (min-width: 750px) and (max-width: 850px) {
+        #types > div:nth-child(5){
+            display: none;
+            }
+    }
+
+    @media screen and (min-width: 750px) and (max-width: 1120px) {
+        #logo {
+        width: 15%;
+        /* border: 2px solid black; */
+        display: flex;
+        align-items: center;
+      }
+      #logo > img {
+        height: 45%;
+        width: 50%;
+      }
+    }
+
+    @media screen and (min-width: 1496px) {
+        #Navbar{
+        position: sticky;
+        top: 0;
+        background-color: white;
+    }
+
+    #fullpage_nav{
+        position: sticky;
+        top: 140px;
+        background-color: white;
+    }
+    }
     </style>
 </head>
 <body>
@@ -388,6 +816,7 @@
                     src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_B%C3%A9lo.svg/1200px-Airbnb_Logo_B%C3%A9lo.svg.png"
                     alt="Logo"/>
                 </div>
+
                 <div id="navigations">
                     <a href="/login">Stays</a>
                     <a href="/login">Experiences</a>
@@ -401,8 +830,20 @@
                         <div id="profile1"><i class="fa-solid fa-user"></i></div>
                     </div>
                 </div>
-            </div>
 
+                <div id="anywheresearch">
+                    <div id="anyweek">
+                        <div id="anyweek1">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <div id="anyweek2">
+                                <h5 id="anyweektext1">Anywhere</h5>
+                                <div id="anyguest"><span id="anyweektext">Any week  <b>.</b>  Add guest</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="filter"><i class="fa-solid fa-bars"></i></div>
+                  </div>
+            </div>
 
             <div id="Navbar2">
                 <div id="search">
@@ -416,15 +857,7 @@
                 </div>
             </div>
 
-            <div id="anywheresearch">
-                <div id="anyweek">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                  <div>
-                      <h5>Anywhere</h5>
-                      <p>Any week</p>
-                  </div>
-                </div>
-              </div>
+            
         </div>
 
         <div id="hrline"><hr></div>
@@ -468,506 +901,430 @@
             </div>
 
             <div class="image_div">
-                <div class="childrenDiv">
-                <img src="../images/2b18ca85-0187-4715-96f6-c30ad7648d6d.jpeg"
-                alt="orthahisar"
-                width="100%"
-                height="310px"
-                style="border-radius: 10px;"
-                /></div>
-                <div class="placename"><span class="place">Wadi Rum Village, Jordan</span><div class="star"><i class="fa-solid fa-star"></i><span class="rating">   4.97</span></div></div>
-                <div><span>3,951 kilometers away</span><br/><span>13-18 Apr</span><br/><p class="rupee"><b>₹5,993</b> night</p></div>
-            </div>
-
-            <div class="image_div">
-                <div class="childrenDiv">
-                <img src="../images/ea34ac88-2977-4d01-b8a7-f56e5e5700a4.jpg"
-                alt="orthahisar"
-                width="100%"
-                height="310px"
-                height="310px"
-                style="border-radius: 10px;"
-                /></div>
+                <div class="childrenDiv1">
+                    <div class="guestfav">
+                        <p>Guest Favourite</p>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
                 <div class="placename"><span class="place">Ortahisar, Turkey</span><div class="star"><i class="fa-solid fa-star"></i><span class="rating">   5.0</span></div></div>
                 <div><span>4,252 kilometers away</span><br/><span>13-18 Apr</span><br/><p class="rupee"><b>₹5,993</b> night</p></div>
             </div>
 
             <div class="image_div">
-                <div class="childrenDiv">
-                <img src="../images/e6ab5568_original.jpg"
-                alt="orthahisar"
-                width="100%"
-                height="310px"
-                style="border-radius: 10px;"
-                /></div>
+                <div class="childrenDiv2">
+                    <div class="guestfav">
+                        <p>Guest Favourite</p>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
                 <div class="placename"><span class="place">Ortahisar, Turkey</span><div class="star"><i class="fa-solid fa-star"></i><span class="rating">   5.0</span></div></div>
                 <div><span>4,252 kilometers away</span><br/><span>13-18 Apr</span><br/><p class="rupee"><b>₹5,993</b> night</p></div>
             </div>
 
             <div class="image_div">
-                <div class="childrenDiv">
-                <img src="../images/6300df88-af2e-4620-a73e-7660def9895f.jpeg"
-                alt="orthahisar"
-                width="100%"
-                height="310px"
-                height="310px"
-                style="border-radius: 10px;"
-                /></div>
+                <div class="childrenDiv3">
+                    <div class="guestfav">
+                        <p>Guest Favourite</p>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
                 <div class="placename"><span class="place">Ortahisar, Turkey</span><div class="star"><i class="fa-solid fa-star"></i><span class="rating">   5.0</span></div></div>
                 <div><span>4,252 kilometers away</span><br/><span>13-18 Apr</span><br/><p class="rupee"><b>₹5,993</b> night</p></div>
             </div>
 
             <div class="image_div">
-                <div class="childrenDiv">
-                <img src="../images/3e13ae05-69b2-4da8-8367-6e8aca8e44c1.jpg"
-                alt="orthahisar"
-                width="100%"
-                height="310px"
-                height="310px"
-                style="border-radius: 10px;"
-                /></div>
+                <div class="childrenDiv4">
+                    <div class="guestfav">
+                        <p>Guest Favourite</p>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
                 <div class="placename"><span class="place">Ortahisar, Turkey</span><div class="star"><i class="fa-solid fa-star"></i><span class="rating">   5.0</span></div></div>
                 <div><span>4,252 kilometers away</span><br/><span>13-18 Apr</span><br/><p class="rupee"><b>₹5,993</b> night</p></div>
             </div>
 
             <div class="image_div">
-                <div class="childrenDiv">
-                <img src="../images/f52d2022-77bf-48b5-a8c2-6194001b052e (1).jpeg"
-                alt="orthahisar"
-                width="100%"
-                height="310px"
-                height="310px"
-                style="border-radius: 10px;"
-                /></div>
+                <div class="childrenDiv5">
+                    <div class="guestfav">
+                        <p>Guest Favourite</p>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
                 <div class="placename"><span class="place">Ortahisar, Turkey</span><div class="star"><i class="fa-solid fa-star"></i><span class="rating">   5.0</span></div></div>
                 <div><span>4,252 kilometers away</span><br/><span>13-18 Apr</span><br/><p class="rupee"><b>₹5,993</b> night</p></div>
             </div>
 
             <div class="image_div">
-                <div class="childrenDiv">
-                <img src="../images/2b18ca85-0187-4715-96f6-c30ad7648d6d.jpeg"
-                alt="orthahisar"
-                width="100%"
-                height="310px"
-                height="310px"
-                style="border-radius: 10px;"
-                /></div>
+                <div class="childrenDiv6">
+                    <div class="guestfav">
+                        <p>Guest Favourite</p>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
                 <div class="placename"><span class="place">Ortahisar, Turkey</span><div class="star"><i class="fa-solid fa-star"></i><span class="rating">   5.0</span></div></div>
                 <div><span>4,252 kilometers away</span><br/><span>13-18 Apr</span><br/><p class="rupee"><b>₹5,993</b> night</p></div>
             </div>
 
             <div class="image_div">
-                <div class="childrenDiv">
-                <img src="../images/0ed5f5be-8449-4423-bd4f-45e8c39c573b.jpg"
-                alt="orthahisar"
-                width="100%"
-                height="310px"
-                height="310px"
-                style="border-radius: 10px;"
-                /></div>
+                <div class="childrenDiv7">
+                    <div class="guestfav">
+                        <p>Guest Favourite</p>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
                 <div class="placename"><span class="place">Ortahisar, Turkey</span><div class="star"><i class="fa-solid fa-star"></i><span class="rating">   5.0</span></div></div>
                 <div><span>4,252 kilometers away</span><br/><span>13-18 Apr</span><br/><p class="rupee"><b>₹5,993</b> night</p></div>
             </div>
 
             <div class="image_div">
-                <div class="childrenDiv">
-                <img src="../images/101751a5-e8a0-41ac-b4cc-546402086702.jpg"
-                alt="orthahisar"
-                width="100%"
-                height="310px"
-                height="310px"
-                style="border-radius: 10px;"
-                /></div>
+                <div class="childrenDiv8">
+                    <div class="guestfav">
+                        <p>Guest Favourite</p>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
                 <div class="placename"><span class="place">Ortahisar, Turkey</span><div class="star"><i class="fa-solid fa-star"></i><span class="rating">   5.0</span></div></div>
                 <div><span>4,252 kilometers away</span><br/><span>13-18 Apr</span><br/><p class="rupee"><b>₹5,993</b> night</p></div>
             </div>
 
             <div class="image_div">
-                <div class="childrenDiv">
-                <img src="../images/436568c0-cce1-4265-85a7-c940b6eccbb5.jpg"
-                alt="orthahisar"
-                width="100%"
-                height="310px"
-                height="310px"
-                style="border-radius: 10px;"
-                /></div>
+                <div class="childrenDiv9">
+                    <div class="guestfav">
+                        <p>Guest Favourite</p>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
                 <div class="placename"><span class="place">Ortahisar, Turkey</span><div class="star"><i class="fa-solid fa-star"></i><span class="rating">   5.0</span></div></div>
                 <div><span>4,252 kilometers away</span><br/><span>13-18 Apr</span><br/><p class="rupee"><b>₹5,993</b> night</p></div>
             </div>
 
             <div class="image_div">
-                <div class="childrenDiv">
-                <img src="../images/53afb838-d3be-42c2-ada0-60ec4b78893a.jpg"
-                alt="orthahisar"
-                width="100%"
-                height="310px"
-                height="310px"
-                style="border-radius: 10px;"
-                /></div>
+                <div class="childrenDiv10">
+                    <div class="guestfav">
+                        <p>Guest Favourite</p>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
                 <div class="placename"><span class="place">Ortahisar, Turkey</span><div class="star"><i class="fa-solid fa-star"></i><span class="rating">   5.0</span></div></div>
                 <div><span>4,252 kilometers away</span><br/><span>13-18 Apr</span><br/><p class="rupee"><b>₹5,993</b> night</p></div>
             </div>
 
             <div class="image_div">
-                <div class="childrenDiv">
-                <img src="../images/85a969da-34e1-450c-8955-6be3f3f0b053.jpg"
-                alt="orthahisar"
-                width="100%"
-                height="310px"
-                height="310px"
-                style="border-radius: 10px;"
-                /></div>
+                <div class="childrenDiv11">
+                    <div class="guestfav">
+                        <p>Guest Favourite</p>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
                 <div class="placename"><span class="place">Ortahisar, Turkey</span><div class="star"><i class="fa-solid fa-star"></i><span class="rating">   5.0</span></div></div>
                 <div><span>4,252 kilometers away</span><br/><span>13-18 Apr</span><br/><p class="rupee"><b>₹5,993</b> night</p></div>
             </div>
 
             <div class="image_div">
-                <div class="childrenDiv">
-                <img src="../images/79666211-2695-4084-b6a2-8e32b4a0513d.jpeg"
-                alt="orthahisar"
-                width="100%"
-                height="310px"
-                height="310px"
-                style="border-radius: 10px;"
-                /></div>
+                <div class="childrenDiv12">
+                    <div class="guestfav">
+                        <p>Guest Favourite</p>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
                 <div class="placename"><span class="place">Ortahisar, Turkey</span><div class="star"><i class="fa-solid fa-star"></i><span class="rating">   5.0</span></div></div>
                 <div><span>4,252 kilometers away</span><br/><span>13-18 Apr</span><br/><p class="rupee"><b>₹5,993</b> night</p></div>
             </div>
 
             <div class="image_div">
-                <div class="childrenDiv">
-                <img src="../images/b3b574d6-82fd-4a44-a28a-ac1ccea7c8fd.jpeg"
-                alt="orthahisar"
-                width="100%"
-                height="310px"
-                height="310px"
-                style="border-radius: 10px;"
-                /></div>
+                <div class="childrenDiv13">
+                    <div class="guestfav">
+                        <p>Guest Favourite</p>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
                 <div class="placename"><span class="place">Ortahisar, Turkey</span><div class="star"><i class="fa-solid fa-star"></i><span class="rating">   5.0</span></div></div>
                 <div><span>4,252 kilometers away</span><br/><span>13-18 Apr</span><br/><p class="rupee"><b>₹5,993</b> night</p></div>
             </div>
 
             <div class="image_div">
-                <div class="childrenDiv">
-                <img src="../images/5bdb5a87-81b9-4185-a972-bf2309633fc5.jpg"
-                alt="orthahisar"
-                width="100%"
-                height="310px"
-                height="310px"
-                style="border-radius: 10px;"
-                /></div>
-                <div class="placename"><span class="place">Ortahisar, Turkey</span><div class="star"><i class="fa-solid fa-star"></i><span class="rating">   5.0</span></div></div>
-                <div><span>4,252 kilometers away</span><br/><span>13-18 Apr</span><br/><p class="rupee"><b>₹5,993</b> night</p></div>
-            </div>
-            
-            <div class="image_div">
-                <div class="childrenDiv">
-                <img src="../images/ce0a01a7-d685-477b-a01d-992e53ce190e.jpeg"
-                alt="orthahisar"
-                width="100%"
-                height="310px"
-                height="310px"
-                style="border-radius: 10px;"
-                /></div>
-                <div class="placename"><span class="place">Ortahisar, Turkey</span><div class="star"><i class="fa-solid fa-star"></i><span class="rating">   5.0</span></div></div>
-                <div><span>4,252 kilometers away</span><br/><span>13-18 Apr</span><br/><p class="rupee"><b>₹5,993</b> night</p></div>
-            </div>
-            
-            <div class="image_div">
-                <div class="childrenDiv">
-                <img src="../images/4c67a54f-5be6-401a-b132-cdbdc4d453cc.jpeg"
-                alt="orthahisar"
-                width="100%"
-                height="310px"
-                height="310px"
-                style="border-radius: 10px;"
-                /></div>
+                <div class="childrenDiv14">
+                    <div class="guestfav">
+                        <p>Guest Favourite</p>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
                 <div class="placename"><span class="place">Ortahisar, Turkey</span><div class="star"><i class="fa-solid fa-star"></i><span class="rating">   5.0</span></div></div>
                 <div><span>4,252 kilometers away</span><br/><span>13-18 Apr</span><br/><p class="rupee"><b>₹5,993</b> night</p></div>
             </div>
 
             <div class="image_div">
-                <div class="childrenDiv">
-                <img src="../images/47c4b4b9-9a98-4c3d-b650-3a54017faf04.jpeg"
-                alt="orthahisar"
-                width="100%"
-                height="310px"
-                height="310px"
-                style="border-radius: 10px;"
-                /></div>
+                <div class="childrenDiv15">
+                    <div class="guestfav">
+                        <p>Guest Favourite</p>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
                 <div class="placename"><span class="place">Ortahisar, Turkey</span><div class="star"><i class="fa-solid fa-star"></i><span class="rating">   5.0</span></div></div>
                 <div><span>4,252 kilometers away</span><br/><span>13-18 Apr</span><br/><p class="rupee"><b>₹5,993</b> night</p></div>
             </div>
 
             <div class="image_div">
-                <div class="childrenDiv">
-                <img src="../images/db3da7ae-b14d-4ead-a8cb-d1ce24cf0931.jpeg"
-                alt="orthahisar"
-                width="100%"
-                height="310px"
-                height="310px"
-                style="border-radius: 10px;"
-                /></div>
+                <div class="childrenDiv16">
+                    <div class="guestfav">
+                        <p>Guest Favourite</p>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
                 <div class="placename"><span class="place">Ortahisar, Turkey</span><div class="star"><i class="fa-solid fa-star"></i><span class="rating">   5.0</span></div></div>
                 <div><span>4,252 kilometers away</span><br/><span>13-18 Apr</span><br/><p class="rupee"><b>₹5,993</b> night</p></div>
             </div>
 
             <div class="image_div">
-                <div class="childrenDiv">
-                <img src="../images/da13f247-ea6a-4c0e-b410-9d82aef09651.jpeg"
-                alt="orthahisar"
-                width="100%"
-                height="310px"
-                height="310px"
-                style="border-radius: 10px;"
-                /></div>
+                <div class="childrenDiv17">
+                    <div class="guestfav">
+                        <p>Guest Favourite</p>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
                 <div class="placename"><span class="place">Ortahisar, Turkey</span><div class="star"><i class="fa-solid fa-star"></i><span class="rating">   5.0</span></div></div>
                 <div><span>4,252 kilometers away</span><br/><span>13-18 Apr</span><br/><p class="rupee"><b>₹5,993</b> night</p></div>
             </div>
 
             <div class="image_div">
-                <div class="childrenDiv">
-                <img src="../images/5bdb5a87-81b9-4185-a972-bf2309633fc5.jpg"
-                alt="orthahisar"
-                width="100%"
-                height="310px"
-                height="310px"
-                style="border-radius: 10px;"
-                /></div>
+                <div class="childrenDiv18">
+                    <div class="guestfav">
+                        <p>Guest Favourite</p>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
                 <div class="placename"><span class="place">Ortahisar, Turkey</span><div class="star"><i class="fa-solid fa-star"></i><span class="rating">   5.0</span></div></div>
                 <div><span>4,252 kilometers away</span><br/><span>13-18 Apr</span><br/><p class="rupee"><b>₹5,993</b> night</p></div>
             </div>
 
             <div class="image_div">
-                <div class="childrenDiv">
-                <img src="../images/ae558b5c-6444-4cfa-b096-a1e5eae635ba.jpg"
-                alt="orthahisar"
-                width="100%"
-                height="310px"
-                height="310px"
-                style="border-radius: 10px;"
-                /></div>
+                <div class="childrenDiv19">
+                    <div class="guestfav">
+                        <p>Guest Favourite</p>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
                 <div class="placename"><span class="place">Ortahisar, Turkey</span><div class="star"><i class="fa-solid fa-star"></i><span class="rating">   5.0</span></div></div>
                 <div><span>4,252 kilometers away</span><br/><span>13-18 Apr</span><br/><p class="rupee"><b>₹5,993</b> night</p></div>
             </div>
 
             <div class="image_div">
-                <div class="childrenDiv">
-                <img src="../images/4bd8a0d5-b77c-4e62-a962-af2d02fc8997.jpg"
-                alt="orthahisar"
-                width="100%"
-                height="310px"
-                height="310px"
-                style="border-radius: 10px;"
-                /></div>
+                <div class="childrenDiv20">
+                    <div class="guestfav">
+                        <p>Guest Favourite</p>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
                 <div class="placename"><span class="place">Ortahisar, Turkey</span><div class="star"><i class="fa-solid fa-star"></i><span class="rating">   5.0</span></div></div>
                 <div><span>4,252 kilometers away</span><br/><span>13-18 Apr</span><br/><p class="rupee"><b>₹5,993</b> night</p></div>
             </div>
 
             <div class="image_div">
-                <div class="childrenDiv">
-                <img src="../images/de49cb55-ef1e-4cfc-8887-e5b7c7173587.jpg"
-                alt="orthahisar"
-                width="100%"
-                height="310px"
-                height="310px"
-                style="border-radius: 10px;"
-                /></div>
+                <div class="childrenDiv21">
+                    <div class="guestfav">
+                        <p>Guest Favourite</p>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
                 <div class="placename"><span class="place">Ortahisar, Turkey</span><div class="star"><i class="fa-solid fa-star"></i><span class="rating">   5.0</span></div></div>
                 <div><span>4,252 kilometers away</span><br/><span>13-18 Apr</span><br/><p class="rupee"><b>₹5,993</b> night</p></div>
             </div>
 
             <div class="image_div">
-                <div class="childrenDiv">
-                <img src="../images/e4b83ddf-c624-4622-bc27-543fc37fefd8.jpeg"
-                alt="orthahisar"
-                width="100%"
-                height="310px"
-                height="310px"
-                style="border-radius: 10px;"
-                /></div>
+                <div class="childrenDiv22">
+                    <div class="guestfav">
+                        <p>Guest Favourite</p>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
                 <div class="placename"><span class="place">Ortahisar, Turkey</span><div class="star"><i class="fa-solid fa-star"></i><span class="rating">   5.0</span></div></div>
                 <div><span>4,252 kilometers away</span><br/><span>13-18 Apr</span><br/><p class="rupee"><b>₹5,993</b> night</p></div>
             </div>
 
             <div class="image_div">
-                <div class="childrenDiv">
-                <img src="../images/7ae09605-bc4e-458e-9653-29ce6eab12d2.jpg"
-                alt="orthahisar"
-                width="100%"
-                height="310px"
-                height="310px"
-                style="border-radius: 10px;"
-                /></div>
+                <div class="childrenDiv23">
+                    <div class="guestfav">
+                        <p>Guest Favourite</p>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
                 <div class="placename"><span class="place">Ortahisar, Turkey</span><div class="star"><i class="fa-solid fa-star"></i><span class="rating">   5.0</span></div></div>
                 <div><span>4,252 kilometers away</span><br/><span>13-18 Apr</span><br/><p class="rupee"><b>₹5,993</b> night</p></div>
             </div>
 
             <div class="image_div">
-                <div class="childrenDiv">
-                <img src="../images/451ec7a9-f0d8-41a9-b2fa-11f4a3e34b0f.jpeg"
-                alt="orthahisar"
-                width="100%"
-                height="310px"
-                height="310px"
-                style="border-radius: 10px;"
-                /></div>
+                <div class="childrenDiv24">
+                    <div class="guestfav">
+                        <p>Guest Favourite</p>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
                 <div class="placename"><span class="place">Ortahisar, Turkey</span><div class="star"><i class="fa-solid fa-star"></i><span class="rating">   5.0</span></div></div>
                 <div><span>4,252 kilometers away</span><br/><span>13-18 Apr</span><br/><p class="rupee"><b>₹5,993</b> night</p></div>
             </div>
 
             <div class="image_div">
-                <div class="childrenDiv">
-                <img src="../images/903ffb33-4f8f-4184-adc9-07e1f005fd09.jpg"
-                alt="orthahisar"
-                width="100%"
-                height="310px"
-                height="310px"
-                style="border-radius: 10px;"
-                /></div>
+                <div class="childrenDiv25">
+                    <div class="guestfav">
+                        <p>Guest Favourite</p>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
                 <div class="placename"><span class="place">Ortahisar, Turkey</span><div class="star"><i class="fa-solid fa-star"></i><span class="rating">   5.0</span></div></div>
                 <div><span>4,252 kilometers away</span><br/><span>13-18 Apr</span><br/><p class="rupee"><b>₹5,993</b> night</p></div>
             </div>
 
             <div class="image_div">
-                <div class="childrenDiv">
-                <img src="../images/a9d8fcf1-00e1-4b48-aa83-aff0bdaebb55.jpeg"
-                alt="orthahisar"
-                width="100%"
-                height="310px"
-                height="310px"
-                style="border-radius: 10px;"
-                /></div>
+                <div class="childrenDiv26">
+                    <div class="guestfav">
+                        <p>Guest Favourite</p>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
                 <div class="placename"><span class="place">Ortahisar, Turkey</span><div class="star"><i class="fa-solid fa-star"></i><span class="rating">   5.0</span></div></div>
                 <div><span>4,252 kilometers away</span><br/><span>13-18 Apr</span><br/><p class="rupee"><b>₹5,993</b> night</p></div>
             </div>
 
             <div class="image_div">
-                <div class="childrenDiv">
-                <img src="../images/34d97a8a-a8e3-445e-b36c-3e27fbbe90a5.jpeg"
-                alt="orthahisar"
-                width="100%"
-                height="310px"
-                height="310px"
-                style="border-radius: 10px;"
-                /></div>
+                <div class="childrenDiv27">
+                    <div class="guestfav">
+                        <p>Guest Favourite</p>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
                 <div class="placename"><span class="place">Ortahisar, Turkey</span><div class="star"><i class="fa-solid fa-star"></i><span class="rating">   5.0</span></div></div>
                 <div><span>4,252 kilometers away</span><br/><span>13-18 Apr</span><br/><p class="rupee"><b>₹5,993</b> night</p></div>
             </div>
 
             <div class="image_div">
-                <div class="childrenDiv">
-                <img src="../images/4fcc5524-f648-48ab-9402-8fd48d919140.jpg"
-                alt="orthahisar"
-                width="100%"
-                height="310px"
-                height="310px"
-                style="border-radius: 10px;"
-                /></div>
+                <div class="childrenDiv28">
+                    <div class="guestfav">
+                        <p>Guest Favourite</p>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
                 <div class="placename"><span class="place">Ortahisar, Turkey</span><div class="star"><i class="fa-solid fa-star"></i><span class="rating">   5.0</span></div></div>
                 <div><span>4,252 kilometers away</span><br/><span>13-18 Apr</span><br/><p class="rupee"><b>₹5,993</b> night</p></div>
             </div>
 
             <div class="image_div">
-                <div class="childrenDiv">
-                <img src="../images/c6926503-d0f9-47da-be2d-d6291991b3d1.jpeg"
-                alt="orthahisar"
-                width="100%"
-                height="310px"
-                height="310px"
-                style="border-radius: 10px;"
-                /></div>
+                <div class="childrenDiv29">
+                    <div class="guestfav">
+                        <p>Guest Favourite</p>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
                 <div class="placename"><span class="place">Ortahisar, Turkey</span><div class="star"><i class="fa-solid fa-star"></i><span class="rating">   5.0</span></div></div>
                 <div><span>4,252 kilometers away</span><br/><span>13-18 Apr</span><br/><p class="rupee"><b>₹5,993</b> night</p></div>
             </div>
 
             <div class="image_div">
-                <div class="childrenDiv">
-                <img src="../images/ac873c09-3d01-4f77-82c5-cc44c41cf04a.jpg"
-                alt="orthahisar"
-                width="100%"
-                height="310px"
-                height="310px"
-                style="border-radius: 10px;"
-                /></div>
+                <div class="childrenDiv30">
+                    <div class="guestfav">
+                        <p>Guest Favourite</p>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
                 <div class="placename"><span class="place">Ortahisar, Turkey</span><div class="star"><i class="fa-solid fa-star"></i><span class="rating">   5.0</span></div></div>
                 <div><span>4,252 kilometers away</span><br/><span>13-18 Apr</span><br/><p class="rupee"><b>₹5,993</b> night</p></div>
             </div>
 
             <div class="image_div">
-                <div class="childrenDiv">
-                <img src="../images/cdb9c602-f009-4539-bdd6-b9ca4e38c10c.jpeg"
-                alt="orthahisar"
-                width="100%"
-                height="310px"
-                height="310px"
-                style="border-radius: 10px;"
-                /></div>
+                <div class="childrenDiv31">
+                    <div class="guestfav">
+                        <p>Guest Favourite</p>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
                 <div class="placename"><span class="place">Ortahisar, Turkey</span><div class="star"><i class="fa-solid fa-star"></i><span class="rating">   5.0</span></div></div>
                 <div><span>4,252 kilometers away</span><br/><span>13-18 Apr</span><br/><p class="rupee"><b>₹5,993</b> night</p></div>
             </div>
 
             <div class="image_div">
-                <div class="childrenDiv">
-                <img src="../images/3c18418d-ac33-4e33-a835-28237b855a5d.jpeg"
-                alt="orthahisar"
-                width="100%"
-                height="310px"
-                height="310px"
-                style="border-radius: 10px;"
-                /></div>
+                <div class="childrenDiv32">
+                    <div class="guestfav">
+                        <p>Guest Favourite</p>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
                 <div class="placename"><span class="place">Ortahisar, Turkey</span><div class="star"><i class="fa-solid fa-star"></i><span class="rating">   5.0</span></div></div>
                 <div><span>4,252 kilometers away</span><br/><span>13-18 Apr</span><br/><p class="rupee"><b>₹5,993</b> night</p></div>
             </div>
 
             <div class="image_div">
-                <div class="childrenDiv">
-                <img src="../images/5a4bc355-b4a1-474e-905e-f3b4799d460b.jpg"
-                alt="orthahisar"
-                width="100%"
-                height="310px"
-                height="310px"
-                style="border-radius: 10px;"
-                /></div>
+                <div class="childrenDiv33">
+                    <div class="guestfav">
+                        <p>Guest Favourite</p>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
                 <div class="placename"><span class="place">Ortahisar, Turkey</span><div class="star"><i class="fa-solid fa-star"></i><span class="rating">   5.0</span></div></div>
                 <div><span>4,252 kilometers away</span><br/><span>13-18 Apr</span><br/><p class="rupee"><b>₹5,993</b> night</p></div>
             </div>
 
             <div class="image_div">
-                <div class="childrenDiv">
-                <img src="../images/76fc7ae0-a355-4903-b50e-dde8da917ac2.jpg"
-                alt="orthahisar"
-                width="100%"
-                height="310px"
-                height="310px"
-                style="border-radius: 10px;"
-                /></div>
+                <div class="childrenDiv34">
+                    <div class="guestfav">
+                        <p>Guest Favourite</p>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
                 <div class="placename"><span class="place">Ortahisar, Turkey</span><div class="star"><i class="fa-solid fa-star"></i><span class="rating">   5.0</span></div></div>
                 <div><span>4,252 kilometers away</span><br/><span>13-18 Apr</span><br/><p class="rupee"><b>₹5,993</b> night</p></div>
             </div>
 
             <div class="image_div">
-                <div class="childrenDiv">
-                <img src="../images/fa28cb68-0fc3-4f5f-87e1-13655e958f2f.jpeg"
-                alt="orthahisar"
-                width="100%"
-                height="310px"
-                height="310px"
-                style="border-radius: 10px;"
-                /></div>
+                <div class="childrenDiv35">
+                    <div class="guestfav">
+                        <p>Guest Favourite</p>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
                 <div class="placename"><span class="place">Ortahisar, Turkey</span><div class="star"><i class="fa-solid fa-star"></i><span class="rating">   5.0</span></div></div>
                 <div><span>4,252 kilometers away</span><br/><span>13-18 Apr</span><br/><p class="rupee"><b>₹5,993</b> night</p></div>
             </div>
 
             <div class="image_div">
-                <div class="childrenDiv">
-                <img src="../images/61d93ef1-d317-4a43-8655-50a6ed0faf35.jpeg"
-                alt="orthahisar"
-                width="100%"
-                height="310px"
-                height="310px"
-                style="border-radius: 10px;"
-                /></div>
+                <div class="childrenDiv36">
+                    <div class="guestfav">
+                        <p>Guest Favourite</p>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+                <div class="placename"><span class="place">Ortahisar, Turkey</span><div class="star"><i class="fa-solid fa-star"></i><span class="rating">   5.0</span></div></div>
+                <div><span>4,252 kilometers away</span><br/><span>13-18 Apr</span><br/><p class="rupee"><b>₹5,993</b> night</p></div>
+            </div>
+
+            <div class="image_div">
+                <div class="childrenDiv37">
+                    <div class="guestfav">
+                        <p>Guest Favourite</p>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+                <div class="placename"><span class="place">Ortahisar, Turkey</span><div class="star"><i class="fa-solid fa-star"></i><span class="rating">   5.0</span></div></div>
+                <div><span>4,252 kilometers away</span><br/><span>13-18 Apr</span><br/><p class="rupee"><b>₹5,993</b> night</p></div>
+            </div>
+
+            <div class="image_div">
+                <div class="childrenDiv38">
+                    <div class="guestfav">
+                        <p>Guest Favourite</p>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+                <div class="placename"><span class="place">Ortahisar, Turkey</span><div class="star"><i class="fa-solid fa-star"></i><span class="rating">   5.0</span></div></div>
+                <div><span>4,252 kilometers away</span><br/><span>13-18 Apr</span><br/><p class="rupee"><b>₹5,993</b> night</p></div>
+            </div>
+
+            <div class="image_div">
+                <div class="childrenDiv39">
+                    <div class="guestfav">
+                        <p>Guest Favourite</p>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
                 <div class="placename"><span class="place">Ortahisar, Turkey</span><div class="star"><i class="fa-solid fa-star"></i><span class="rating">   5.0</span></div></div>
                 <div><span>4,252 kilometers away</span><br/><span>13-18 Apr</span><br/><p class="rupee"><b>₹5,993</b> night</p></div>
             </div>
