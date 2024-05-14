@@ -465,6 +465,10 @@
         border-bottom: 1px solid rgb(200,200,200);
     }
 
+    #showmore{
+        display: none;
+    }
+
     #meet{
         /* border: 1px solid red; */
         width: 100%;
@@ -2374,16 +2378,33 @@
         }
 
         #contentparas{
-            height: 270px;
+            height: 310px;
         }
 
-        #contentparas > p:nth-child(3),#contentparas > p:nth-child(4),#contentparas > p:nth-child(5),#contentparas > p:nth-child(7),#contentparas > p:nth-child(9),#contentparas > p:nth-child(11){
-            display: none;
+        #showmore {
+            width: 25%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
-        
-        #contentparas > p:nth-child(13),#contentparas > p:nth-child(15),#contentparas > p:nth-child(17),#contentparas > p:nth-child(19),#contentparas > p:nth-child(21){
-            display: none;
-        }
+
+        #contentparas > p:nth-child(5),
+    #contentparas > p:nth-child(6),
+	#contentparas > p:nth-child(8),
+	#contentparas > p:nth-child(10),
+	#contentparas > p:nth-child(12),
+	#contentparas > p:nth-child(14),
+	#contentparas > p:nth-child(16) {
+		display: none;
+	}
+
+	#contentparas > p:nth-child(18),
+	#contentparas > p:nth-child(20),
+	#contentparas > p:nth-child(22),
+	#contentparas > p:nth-child(19),
+	#contentparas > p:nth-child(21) {
+		display: none;
+	}
 
         #yourhost{
             /* border: 1px solid red; */
