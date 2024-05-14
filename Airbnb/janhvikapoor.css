@@ -21,6 +21,14 @@
     align-items: center;
 }
 
+#firstnav{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 #logo{
     width: 9%;
     height: 30px;
@@ -2062,7 +2070,6 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        display: none;
     }
     
     #logo{
@@ -2165,18 +2172,54 @@
             font-size: 12px;
         }
 
+        #firstnav{
+            display: none;
+        }
+
+        #sharesave{
+            display: none;
+        }
+
         #secondnav{
             /* border: 2px solid red; */
             width: 100%;
             /* margin-top: 15px; */
             display: flex;
             align-items: center;
-            justify-content: space-around;
-            height: 100px;
+            justify-content: space-between;
+            height: 80px;
         }
 
         #home{
-            width: 30%;
+            width: 13%;
+            display: flex;
+            justify-content: space-between;
+            margin-left: 30px;
+        }
+
+        #sharesave1{
+            display: flex;
+            margin-right: 30px;
+        }
+
+        #share1{
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #save1{
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
     
         #livelike{
@@ -2189,48 +2232,18 @@
             font-size: 26px;
             font-weight: 600;
             position: absolute;
-            top: 450px;
+            top: 420px;
             left: 22px;
         }
     
-        #sharesave{
-            display: flex;
-            align-items: center;
-            width: 18%;
-            justify-content: space-between;
-            margin-top: 15px;
-            z-index: 1;
-            position: relative;
-            height: 80px;
-        }
-    
-        #share span{
-            font-size: 14px;
-            padding-left: 10px;
-            font-weight: 550;
-            display: none;
-        }
-        
-        #share{
-            width: 35px;
-            height: 35px;
-            border-radius: 50%;
-            background-color: white;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            position: absolute;
-            top: -10px;
-            left: 350px;
-        }
-        #share i{
+        #share1 i{
             font-size: 16px;
-            margin-top: 35px;
+            /* margin-top: 35px; */
         }
 
-        #save i{
+        #save1 i{
             font-size: 16px;
-            margin-top: 35px;
+            /* margin-top: 35px; */
         }
     
         #save span{
@@ -2238,23 +2251,6 @@
             padding-left: 10px;
             font-weight: 550;
             display: none;
-        }
-
-        #save{
-            width: 35px;
-            height: 35px;
-            border-radius: 50%;
-            background-color: white;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            position: absolute;
-            top: -10px;
-            left: 400px;
-        }
-    
-        #save i{
-            font-size: 16px;
         }
     
         #images{
@@ -2273,6 +2269,7 @@
             border-radius: 0px 0px 0px 0px;
             background-size: cover;
             background-position: 50% 50%;
+            margin-top: -80px;
             /* margin-left: -10px; */
         }
     
@@ -2284,79 +2281,13 @@
             justify-content: space-between;
             display: none;
         }
-    
-        #firstfourimage{
-            background-image: url("../images/acb7c0e1-5e3d-4f12-9aea-f9ee71a9035a.jpeg");
-            width: 49.2%;
-            height: 49.2%;
-            background-size: cover;
-            background-position: 50% 50%;
-            display: none;
-        }
-    
-        #secondfourimage{
-            background-image: url("../images/b6288ffe-0bc2-4b01-b2f6-d0d0b78d0959.jpeg");
-            width: 49.2%;
-            height: 49.2%;
-            background-size: cover;
-            background-position: 50% 50%;
-            border-radius: 0px 15px 0px 0px;
-            display: none;
-        }
-    
-        #thirdfourimage{
-            background-image: url("../images/1e05770b-cfb9-4484-aa14-8fd4d14ee7b3.jpeg");
-            width: 49.2%;
-            height: 49.2%;
-            background-size: cover;
-            background-position: 50% 50%;
-            display: none;
-            margin-top: 8px;
-        }
-    
-        #fourthfourimage{
-            background-image: url("../images/db3f6905-3141-479a-bfbb-65feca74bc1e.jpeg");
-            width: 49.2%;
-            height: 49.2%;
-            background-size: cover;
-            background-position: 50% 50%;
-            border-radius: 0px 0px 15px 0px;
-            margin-top: 8px;
-            position: relative;
-            display: none;
-        }
-    
-        #showallphotos{
-            border: 1px solid black;
-            width: 78%;
-            background-color: white;
-            border-radius: 7px;
-            height: 30px;
-            display: flex;
-            align-items: center;
-            justify-content: space-around;
-            position: absolute;
-            top: 135px;
-            left:6px;
-        }
-    
-        #showallphotos img{
-            height: 60%;
-            margin-left: 6px;
-        }
-    
-        #showallphotos span{
-            font-size: 14px;
-            font-weight: 550;
-            margin-right: 6px;
-        }
 
         #contentrequest{
             width: 90%;
             /* border: 2px solid blue; */
             display: flex;
             justify-content: space-between;
-            margin-top: 50px;
+            margin-top: -50px;
             margin-left: 23px;
             height:2070px
         }
