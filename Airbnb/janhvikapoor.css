@@ -840,6 +840,146 @@
         margin-left: 188px;
     }
 
+    #explore{
+        width: 100%;
+        height: 450px;
+        border-bottom: 1px solid rgb(200,200,200);
+        background-color: rgb(247,247,247);
+    }
+
+    #exploretext p{
+        font-size: 22px;
+        margin-left: 188px;
+        padding-top: 30px;
+    }
+
+    #otheroptions{
+        /* border: 1px solid red; */
+        height: 200px;
+        width: 73%;
+        margin-left: 188px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+
+    #otheroptions >div{
+        width: 30%;
+    }
+
+    #otheroptions >div > p:nth-child(1){
+        font-size: 14px;
+    }
+
+    #otheroptions >div > p:nth-child(2){
+        font-size: 14px;
+        color: rgb(129,133,150);
+    }
+
+    #othertypes{
+        margin-left: 188px;
+        font-size: 18px;
+    }
+
+    #othertypesstays{
+        /* border: 1px solid red; */
+        height: 100px;
+        width: 69%;
+        margin-left: 188px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+
+    #othertypesstays >div{
+        width: 26%;
+    }
+
+    #othertypesstays >div > p:nth-child(1){
+        font-size: 14px;
+    }
+
+    #suphosair{
+        width: 100%;
+        height: 320px;
+        /* border: 1px solid red; */
+        background-color: rgb(247,247,247);
+        padding-top: 40px;
+    }
+
+    #suphosair1{
+        width: 75%;
+        margin-left: 188px;
+        height: 280px;
+        border-bottom: 1px solid rgb(200,200,200);
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(247,247,247);
+    }
+
+    #support p{
+        line-height: 2.2;
+    }
+
+    #hosting{
+        margin-left: -50px;
+    }
+
+    #hosting p{
+        line-height: 2.2;
+    }
+
+    #airbnb{
+        margin-right: 160px;
+    }
+    
+    #airbnb p{
+        line-height: 2.2;
+    }
+
+    #footer{
+        width: 100%;
+        background-color: rgb(247,247,247);
+    }
+
+    #footer1{
+        width: 75%;
+        height: 70px;
+        margin-left: 188px;
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(247,247,247);
+    }
+
+    #webcurrsocial{
+        width: 28%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #webeng{
+        margin-left: 16px;
+        font-size: 14px;
+    }
+
+    #currency{
+        font-size: 14px;
+    }
+
+    #social{
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #social i{
+        font-size: 21px;
+    }
+
     @media screen and (min-width:1040px) and (max-width:1050px) {
         #parentdiv{
             width: 94%;
@@ -1218,6 +1358,97 @@
 
             #airind p{
                 margin-left: 30px;
+            }
+
+            #explore{
+                width: 100%;
+                height: 450px;
+                border-bottom: 1px solid rgb(200,200,200);
+                background-color: rgb(247,247,247);
+            }
+        
+            #exploretext p{
+                margin-left: 30px;
+            }
+        
+            #otheroptions{
+                /* border: 1px solid red; */
+                height: 200px;
+                width: 90%;
+                margin-left: 30px;
+            }
+        
+            #othertypes{
+                margin-left: 30px;
+                font-size: 18px;
+            }
+        
+            #othertypesstays{
+                width: 90%;
+                margin-left: 30px;
+            }
+        
+            #othertypesstays >div{
+                width: 30%;
+            }
+        
+            #suphosair1{
+                width: 96%;
+                margin-left: 30px;
+                height: 260px;
+                border-bottom: 1px solid rgb(200,200,200);
+                display: flex;
+                justify-content: space-between;
+                background-color: rgb(247,247,247);
+            }
+        
+            #support p{
+                font-size: 14px;
+            }
+
+            #hosting{
+                margin-left: 0px;
+                margin-right: -23px;
+            }
+        
+            #hosting p{
+                font-size: 14px;
+            }
+            
+            #airbnb p{
+                font-size: 14px;
+            }
+        
+            #footer{
+                width: 100%;
+                background-color: rgb(247,247,247);
+                height: 100px;
+            }
+        
+            #footer1{
+                width: 75%;
+                height: 70px;
+                margin-left: 168px;
+                /* border: 1px solid red; */
+                display: flex;
+                align-items: center;
+                flex-direction: column-reverse;
+                background-color: rgb(247,247,247);
+            }
+
+            #footer1text span{
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                font-size: 14px;
+            }
+
+            #footer1text p{
+                font-size: 14px;
+            }
+
+            #webcurrsocial{
+                width: 38%;
             }
 
     }
@@ -1701,6 +1932,118 @@
             #airind p{
                 margin-left: 30px;
             }
+
+            #explore{
+                width: 100%;
+                height: 450px;
+                border-bottom: 1px solid rgb(200,200,200);
+                background-color: rgb(247,247,247);
+            }
+        
+            #exploretext p{
+                margin-left: 30px;
+            }
+        
+            #otheroptions{
+                /* border: 1px solid red; */
+                height: 200px;
+                width: 90%;
+                margin-left: 30px;
+            }
+        
+            #othertypes{
+                margin-left: 30px;
+                font-size: 18px;
+            }
+        
+            #othertypesstays{
+                width: 90%;
+                margin-left: 30px;
+            }
+        
+            #othertypesstays >div{
+                width: 30%;
+            }
+        
+            #suphosair{
+                height: 780px;
+            }
+            #suphosair1{
+                width: 96%;
+                margin-left: 30px;
+                height: 700px;
+                border-bottom: 1px solid rgb(200,200,200);
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                background-color: rgb(247,247,247);
+            }
+        
+            #support p{
+                font-size: 14px;
+            }
+
+            #support{
+                width: 96%;
+                border-bottom: 1px solid rgb(200,200,200);
+                padding-bottom: 20px;
+            }
+
+            #hosting{
+                width: 96%;
+                margin-left: -20px;
+                border-bottom: 1px solid rgb(200,200,200);
+                padding-bottom: 20px;
+                padding-top: 20px;
+            }
+        
+            #hosting p{
+                font-size: 14px;
+                margin-left: 23px;
+            }
+
+            #airbnb{
+                width: 96%;
+                padding-bottom: 20px;
+                padding-top: 20px;
+            }
+            
+            #airbnb p{
+                font-size: 14px;
+            }
+        
+            #footer{
+                width: 100%;
+                background-color: rgb(247,247,247);
+                height: 90px;
+                margin-top: -30px;
+            }
+        
+            #footer1{
+                width: 75%;
+                height: 70px;
+                margin-left: 130px;
+                /* border: 1px solid red; */
+                display: flex;
+                align-items: center;
+                flex-direction: column-reverse;
+                background-color: rgb(247,247,247);
+            }
+
+            #footer1text span{
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                font-size: 14px;
+            }
+
+            #footer1text p{
+                font-size: 14px;
+            }
+
+            #webcurrsocial{
+                width: 38%;
+            }
     }
 
 @media screen and (max-width:460px) {
@@ -1882,6 +2225,12 @@
         }
         #share i{
             font-size: 16px;
+            margin-top: 35px;
+        }
+
+        #save i{
+            font-size: 16px;
+            margin-top: 35px;
         }
     
         #save span{
@@ -2359,5 +2708,126 @@
     
         #airind p{
             margin-left: 23px;
+        }
+
+        #explore{
+            width: 100%;
+            height: 650px;
+            border-bottom: 1px solid rgb(200,200,200);
+            background-color: rgb(247,247,247);
+        }
+    
+        #exploretext p{
+            margin-left: 30px;
+        }
+    
+        #otheroptions{
+            /* border: 1px solid red; */
+            height: 300px;
+            width: 90%;
+            margin-left: 30px;
+        }
+
+        #otheroptions > div{
+            width: 50%;
+        }
+    
+        #othertypes{
+            margin-left: 30px;
+            font-size: 18px;
+        }
+    
+        #othertypesstays{
+            width: 90%;
+            margin-left: 30px;
+        }
+    
+        #othertypesstays >div{
+            width: 50%;
+            margin-top: 10px;
+        }
+    
+        #suphosair{
+            height: 780px;
+        }
+        #suphosair1{
+            width: 96%;
+            margin-left: 30px;
+            height: 700px;
+            border-bottom: 1px solid rgb(200,200,200);
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            background-color: rgb(247,247,247);
+        }
+    
+        #support p{
+            font-size: 14px;
+        }
+
+        #support{
+            width: 96%;
+            border-bottom: 1px solid rgb(200,200,200);
+            padding-bottom: 20px;
+        }
+
+        #hosting{
+            width: 96%;
+            margin-left: -20px;
+            border-bottom: 1px solid rgb(200,200,200);
+            padding-bottom: 20px;
+            padding-top: 20px;
+        }
+    
+        #hosting p{
+            font-size: 14px;
+            margin-left: 23px;
+        }
+
+        #airbnb{
+            width: 96%;
+            padding-bottom: 20px;
+            padding-top: 20px;
+        }
+        
+        #airbnb p{
+            font-size: 14px;
+        }
+    
+        #footer{
+            width: 100%;
+            background-color: rgb(247,247,247);
+            height: 90px;
+            margin-top: -30px;
+        }
+    
+        #footer1{
+            width: 95%;
+            height: 70px;
+            margin-left: 10px;
+            /* border: 1px solid red; */
+            display: flex;
+            align-items: center;
+            flex-direction: column-reverse;
+            background-color: rgb(247,247,247);
+        }
+
+        #footer1text span{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        #footer1text p{
+            font-size: 14px;
+        }
+
+        #webcurrsocial{
+            width: 38%;
+        }
+
+        #social{
+            display: none;
         }
 }
