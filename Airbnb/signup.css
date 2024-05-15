@@ -61,6 +61,13 @@
     border-radius: 12px 12px 0px 0px;
 }
 
+#typename{
+    width: 100%;
+    height: 47px;
+    outline: none;
+    border-radius: 12px 12px 0px 0px;
+}
+
 #name input{
     border: none;
 }
@@ -71,6 +78,11 @@
     height: 50px;
     display: flex;
     align-items: center;
+}
+#typeemail{
+    width: 100%;
+    height: 47px;
+    outline: none;
 }
 
 #email input{
@@ -85,6 +97,12 @@
     align-items: center;
 }
 
+#typepass{
+    width: 100%;
+    height: 47px;
+    outline: none;
+}
+
 #password input{
     border: none;
 }
@@ -95,6 +113,13 @@
     height: 50px;
     display: flex;
     align-items: center;
+    border-radius: 0px 0px 12px 12px;
+}
+
+#typeconpas{
+    width: 100%;
+    height: 47px;
+    outline: none;
     border-radius: 0px 0px 12px 12px;
 }
 
