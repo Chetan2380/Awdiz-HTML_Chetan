@@ -435,6 +435,10 @@
     font-size: 17px;
 }
 
+#creditdebitmobile{
+    display: none;
+}
+
 @media screen and (min-width:1040px) and (max-width:1050px){
     #logo{
         width: 11%;
@@ -514,6 +518,10 @@
     }
 
     #yourtrip1{
+        display: none;
+    }
+
+    #creditdebitmobile{
         display: none;
     }
 }
@@ -597,6 +605,10 @@
     }
 
     #yourtrip1{
+        display: none;
+    }
+
+    #creditdebitmobile{
         display: none;
     }
 }
