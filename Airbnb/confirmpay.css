@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+#navbar{
+    width: 100%;
+}
+
 #firstnav{
     width: 100%;
     height: 75px;
@@ -13,6 +17,7 @@
     align-items: center;
     border-bottom: 1px solid rgb(200,200,200);
 }
+
 
 #logo{
     width: 6%;
@@ -23,6 +28,10 @@
 #logo img{
     width: 100%;
     height: 100%;
+}
+
+#logo1{
+    display: none;
 }
 
 #confirmpay{
@@ -40,6 +49,10 @@
     font-weight: 550;
     margin-left: 20px;
     margin-top: 10px;
+}
+
+#secondnav{
+    display: none;
 }
 
 #parentdiv{
@@ -129,6 +142,10 @@
     border-radius: 12px;
     border: 1px solid rgb(200,200,200);
     margin-right: 30px;
+}
+
+#zeelpic1{
+    display: none;
 }
 
 #zeelpic{
@@ -242,4 +259,362 @@
 #total p{
     font-weight: 550;
     margin-top: 24px;
+}
+
+@media screen and (min-width:1040px) and (max-width:1050px){
+    #logo{
+        width: 11%;
+        margin-left: 20px;
+    }
+
+    #confirmpay{
+        width: 98%;
+    }
+
+    #secondnav{
+        display: none;
+    }
+
+    #parentdiv{
+        width: 92%;
+        /* border: 1px solid red; */
+        margin: auto;
+    }
+
+    #zeelprice{
+        width: 42%;
+        height: 400px;
+        border-radius: 12px;
+        border: 1px solid rgb(200,200,200);
+        margin-right: 0px;
+    }
+
+    #zeelpic{
+        width: 90%;
+        height: 120px;
+        border-bottom: 1px solid rgb(200,200,200);
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 25px;
+    }
+
+    #zeelpic1{
+        display: none;
+    }
+
+    #picture{
+        width: 32%;
+    }
+    
+    #pictext{
+        width: 75%;
+        margin-left: 30px;
+    }
+}
+
+@media screen and (min-width:860px) and (max-width:1039px){
+    #logo{
+        width: 13%;
+        margin-left: 20px;
+    }
+
+    #confirmpay{
+        width: 98%;
+    }
+
+    #secondnav{
+        display: none;
+    }
+
+    #parentdiv{
+        width: 92%;
+        /* border: 1px solid red; */
+        margin: auto;
+    }
+
+    #zeelprice{
+        width: 42%;
+        height: 400px;
+        border-radius: 12px;
+        border: 1px solid rgb(200,200,200);
+        margin-right: 0px;
+    }
+
+    #zeelpic{
+        width: 86%;
+        height: 120px;
+        border-bottom: 1px solid rgb(200,200,200);
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 25px;
+    }
+
+    #zeelpic1{
+        display: none;
+    }
+
+    #picture{
+        width: 60%;
+    }
+    
+    #pictext{
+        width: 90%;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width:460px){
+    #secondnav{
+        width: 100%;
+        height: 65px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top:0;
+    }
+
+    #confirmpay1{
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    #confirmpay1 p{
+        margin-left: 130px;
+        font-weight: 550;
+    }
+
+    #confirmpay1 i{
+        margin-left: 30px;
+    }
+    
+
+    #firstnav, #confirmpay, #zeelprice{
+        display: none;
+    }
+
+    #parentdiv{
+        width: 100%;
+        /* border: 1px solid red; */
+        margin: auto;
+        height: 2000px;
+    }
+
+    #zeelpic1{
+        width: 100%;
+        height: 150px;
+        border-bottom: 8px solid rgb(239, 232, 232);
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #zeelpic2{
+        width: 90%;
+        height: 120px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    
+    #picture1{
+        background-image: url("https://a0.muscache.com/im/pictures/miso/Hosting-920881307694956397/original/675848f3-f969-404c-bf3c-e5b5a7224fa3.jpeg?aki_policy=large");
+        width: 25.5%;
+        height: 83%;
+        background-size: cover;
+        background-position: 50% 50%;
+        border-radius: 12px;
+    }
+    
+    #pictext1{
+        width: 68%;
+    }
+    
+    #pictext1 p:nth-child(1){
+        font-size: 16px;
+        font-weight: 550;
+        margin-top: 20px;
+        width: 96%;
+    }
+    
+    #pictext1 p:nth-child(2){
+        font-size: 15px;
+        font-weight: 100;
+        line-height: 2;
+    }
+
+    #contentyourtrip{
+        width: 100%;
+        /* border: 1px solid blue; */
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #yourtrip{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 230px;
+        justify-content: space-between;
+        border-bottom: 8px solid rgb(239, 232, 232);
+    }
+
+    #yourtrip > p:nth-child(1){
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 30px;
+    }
+
+    #dates{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #datesedit > p:nth-child(1){
+        font-size: 17px;
+        font-weight: 550;
+    }
+    
+    #datesedit > p:nth-child(2){
+        font-size: 17px;
+        font-weight: 550;
+    }
+    
+    #actualdate > p:nth-child(1){
+        font-size: 16px;
+        font-weight: 100;
+        line-height: 2.5;
+    }
+    
+    #guests{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 11px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    #guestsedit{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #guestsedit > p:nth-child(1){
+        font-size: 17px;
+        font-weight: 550;
+    }
+    
+    #guestsedit > p:nth-child(2){
+        font-size: 17px;
+        font-weight: 550;
+    }
+    
+    #actualguest p:nth-child(1){
+        font-size: 16px;
+        font-weight: 100;
+        line-height: 2.5;
+    }
+
+    #price2{
+        width: 100%;
+        height: 300px;
+        border-bottom: 8px solid rgb(239, 232, 232);
+    }
+
+    #price1{
+        width: 90%;
+        height: 190px;
+        border-bottom: 1px solid rgb(200,200,200);
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    #details1 p{
+        font-size: 20px;
+        font-weight: 550;
+        margin-top: 15px;
+    }
+    
+    #nightprice1{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 8px;
+    }
+    
+    
+    #nightprice1 p:nth-child(1){
+        font-weight: 100;
+        font-size: 16px;
+    }
+    
+    #nightprice1 p:nth-child(2){
+        font-weight: 100;
+        font-size: 16px;
+    }
+    
+    #discount1{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #discount1 p:nth-child(1){
+        font-weight: 100;
+        font-size: 16px;
+    }
+    
+    #discount1 p:nth-child(2){
+        font-weight: 100;
+        font-size: 16px;
+        color: rgb(127,196,130);
+    }
+    
+    #taxes1{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 8px;
+    }
+    
+    #taxes1 p:nth-child(1){
+        font-weight: 100;
+        font-size: 16px;
+    }
+    
+    #taxes1 p:nth-child(2){
+        font-weight: 100;
+        font-size: 16px;
+    }
+    
+    #total1{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #total1 p{
+        font-weight: 550;
+        margin-top: 24px;
+    }
+
+    #moreinfo{
+        width:90%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin: auto;
+    }
+
+    #moreinfo > p{
+        font-weight: 550;
+    }
 }
