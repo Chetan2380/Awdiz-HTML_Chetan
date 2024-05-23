@@ -7,7 +7,7 @@
 
 #parentdiv{
     width: 100%;
-    height: 5000px;
+    height: 1696px;
 }
 
 #navbar{
@@ -64,6 +64,7 @@
     width: 74%;
     /* border: 1px solid red; */
     margin: auto;
+    height: 1400px;
 }
 
 #contentyourtrip{
@@ -75,7 +76,6 @@
 
 #content{
     width: 49%;
-    height: 2000px;
 }
 
 #yourtrip1{
@@ -553,6 +553,51 @@
     font-size: 18px;
 }
 
+#footer{
+    width: 100%;
+    background-color: rgb(247,247,247);
+}
+
+#footer1{
+    width: 82%;
+    height: 70px;
+    margin-left: 138px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(247,247,247);
+}
+
+#footer1text{
+    font-size: 15px;
+}
+
+#webcurrsocial{
+    width: 23%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#webeng{
+    margin-left: 16px;
+    font-size: 14px;
+}
+
+#currency{
+    font-size: 14px;
+}
+
+#social{
+    width: 26%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#social i{
+    font-size: 21px;
+}
+
 @media screen and (min-width:1040px) and (max-width:1050px){
     #logo{
         width: 11%;
@@ -571,6 +616,7 @@
         width: 92%;
         /* border: 1px solid red; */
         margin: auto;
+        height: 1420px;
     }
 
     #zeelprice{
@@ -642,6 +688,39 @@
     #confirm{
         width: 44%;
     }
+
+    #footer{
+        width: 100%;
+        background-color: rgb(247,247,247);
+        height: 130px;
+    }
+
+    #footer1{
+        width: 75%;
+        height: 100px;
+        margin-left: 128px;
+        /* border: 1px solid red; */
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+        background-color: rgb(247,247,247);
+    }
+
+    #footer1text span{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    #footer1text p{
+        font-size: 14px;
+    }
+
+    #webcurrsocial{
+        width: 38%;
+        margin-top: 30px;
+    }
 }
 
 @media screen and (min-width:860px) and (max-width:1039px){
@@ -662,6 +741,7 @@
         width: 92%;
         /* border: 1px solid red; */
         margin: auto;
+        height: 1450px;
     }
 
     #zeelprice{
@@ -762,6 +842,43 @@
         line-height: 1.8;
         position: relative;
     }
+
+    #confirm{
+        width: 52%;
+    }
+
+    #footer{
+        width: 100%;
+        background-color: rgb(247,247,247);
+        height: 130px;
+    }
+
+    #footer1{
+        width: 75%;
+        height: 100px;
+        margin-left: 108px;
+        /* border: 1px solid red; */
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+        background-color: rgb(247,247,247);
+    }
+
+    #footer1text span{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    #footer1text p{
+        font-size: 14px;
+    }
+
+    #webcurrsocial{
+        width: 48%;
+        margin-top: 30px;
+    }
 }
 
 @media screen and (max-width:460px){
@@ -800,7 +917,7 @@
         width: 100%;
         /* border: 1px solid red; */
         margin: auto;
-        height: 2000px;
+        height: 1600px;
     }
 
     #zeelpic1{
@@ -1150,5 +1267,42 @@
         margin: auto;
         margin-top: 40px;
         color: white;
+    }
+
+    #footer{
+        width: 100%;
+        background-color: rgb(247,247,247);
+        height: 140px;
+    }
+
+    #footer1{
+        width: 95%;
+        height: 100px;
+        margin-left: 20px;
+        /* border: 1px solid red; */
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column-reverse;
+        background-color: rgb(247,247,247);
+    }
+
+    #footer1text span{
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+    }
+
+    #footer1text p{
+        font-size: 14px;
+    }
+
+    #webcurrsocial{
+        width: 38%;
+        margin-left: -18px;
+        margin-top: 30px;
+    }
+
+    #social{
+        display: none;
     }
 }
