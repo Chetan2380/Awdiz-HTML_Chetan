@@ -444,115 +444,6 @@
     display: none;
 }
 
-#requiredforyourtrip{
-    width: 100%;
-    height: 135px;
-    border-bottom: 1px solid rgb(200,200,200);
-    margin-top: 30px;
-}
-
-#requiredforyourtrip > p:nth-child(1){
-    font-size: 22px;
-}
-
-#phone{
-    display: flex;
-    justify-content: space-between;
-}
-
-#phonenumber{
-    width: 80%;
-    margin-top: 30px;
-    line-height: 1.5;
-}
-
-
-#phonenumber > p:nth-child(2){
-    font-size: 15px;
-}
-
-#add{
-    width: 11%;
-    height: 33px;
-    border: 1px solid black;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 30px;
-}
-
-#add > p{
-    font-size: 14px;
-}
-
-#cancellationpolicy{
-    width: 100%;
-    height: 120px;
-    border-bottom: 1px solid rgb(200,200,200);
-}
-
-#cancellationpolicy > p:nth-child(1){
-    width: 99%;
-    font-size: 22px;
-    margin-top: 30px;
-}
-
-#cancellationpolicy > p:nth-child(2){
-    margin-top: 25px;
-}
-
-#groundrules{
-    width: 100%;
-    height: 210px;
-    border-bottom: 1px solid rgb(200,200,200);
-}
-
-#groundrules > p:nth-child(1){
-    font-size: 22px;
-    margin-top: 30px;
-}
-
-#groundrules > p:nth-child(2){
-    margin-top: 30px;
-}
-
-#groundrules > ul{
-    margin-top: 20px;
-    margin-left: 18px;
-    line-height: 1.8;
-    position: relative;
-}
-
-#confirmandpay{
-    width: 100%;
-    height: 250px;
-}
-
-#confirmandpay > p:nth-child(1){
-    font-size: 12px;
-    margin-top: 40px;
-    line-height: 1.3;
-}
-
-#confirm{
-    width: 38%;
-    height: 56px;
-    /* border: 1px solid black; */
-    background-color: rgb(227,28,95);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 8px;
-    margin-top: 40px;
-    color: white;
-}
-
-#confirm p{
-    color: white;
-    font-size: 18px;
-}
-
 @media screen and (min-width:1040px) and (max-width:1050px){
     #logo{
         width: 11%;
@@ -638,10 +529,6 @@
     #creditdebitmobile{
         display: none;
     }
-
-    #confirm{
-        width: 44%;
-    }
 }
 
 @media screen and (min-width:860px) and (max-width:1039px){
@@ -726,41 +613,8 @@
         display: none;
     }
 
-    #requiredforyourtrip{
-        height: 155px;
-    }
-
     #creditdebitmobile{
         display: none;
-    }
-
-    #phonenumber{
-        width: 86%;
-        margin-top: 30px;
-        line-height: 1.5;
-    }    
-    
-    
-    #add{
-        width: 15%;
-        height: 33px;
-        border: 1px solid black;
-        border-radius: 8px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 30px;
-    }
-
-    #groundrules > p:nth-child(2){
-        margin-top: 20px;
-    }
-    
-    #groundrules > ul{
-        margin-top: 15px;
-        margin-left: 18px;
-        line-height: 1.8;
-        position: relative;
     }
 }
 
@@ -1036,10 +890,6 @@
         width: 100%;
     }
 
-    #paywith{
-        height: 100px;
-    }
-
     #creditdebitmobile{
         width: 100%;
         height: 100px;
@@ -1078,77 +928,5 @@
 
     #editcreditdebitmobile{
         font-weight: 550;
-    }
-
-    #requiredforyourtrip{
-        height: 150px;
-        border-bottom: 8px solid rgb(239, 232, 232);
-    }
-
-    #requiredforyourtrip > p:nth-child(1){
-        margin-left: 20px;
-    }
-    
-    #phonenumber{
-        margin-left: 20px;
-    }
-    
-    #add{
-        width: 13%;
-        margin-right: 20px;
-    }
-
-    #cancellationpolicy{
-        width: 100%;
-        height: 110px;
-        border-bottom: 8px solid rgb(239, 232, 232);
-    }
-    
-    #cancellationpolicy > p:nth-child(1){
-        margin-right: 20px;
-        margin-left: 20px;
-    }
-    
-    #cancellationpolicy > p:nth-child(2){
-        margin-top: 18px;
-        margin-right: 20px;
-        margin-left: 20px;
-    }
-
-    #groundrules{
-        border-bottom: 8px solid rgb(239, 232, 232);
-    }
-    
-    #groundrules > p:nth-child(1){
-        margin-right: 20px;
-        margin-left: 20px;
-    }
-    
-    #groundrules > p:nth-child(2){
-        margin-right: 20px;
-        margin-left: 20px;
-    }
-    
-    #groundrules > ul{
-        margin-left: 36px;
-        margin-right: 20px;
-    }
-    
-    #confirmandpay{
-        width: 100%;
-        height: 250px;
-    }
-    
-    #confirmandpay > p:nth-child(1){
-        margin-top: 28px;
-        margin-right: 20px;
-        margin-left: 20px;
-    }
-    
-    #confirm{
-        width: 90%;
-        margin: auto;
-        margin-top: 40px;
-        color: white;
     }
 }
