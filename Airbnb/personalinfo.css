@@ -263,6 +263,58 @@
     line-height: 1.8;
 }
 
+#addresshome{
+    width: 100%;
+    border-bottom: 1px solid rgb(200,200,200);
+    height: 68px;
+    margin-top: 25px;
+}
+
+#addhome{
+    display: flex;
+    justify-content: space-between;
+}
+
+#addhome > p:nth-child(1){
+    font-size: 16px;
+}
+
+#addhome > p:nth-child(2){
+    font-size: 14px;
+}
+
+#addhome1{
+    font-size: 15px;
+    color: rgb(133,133,134);
+    line-height: 1.8;
+}
+
+#emergencycontact{
+    width: 100%;
+    border-bottom: 1px solid rgb(200,200,200);
+    height: 68px;
+    margin-top: 25px;
+}
+
+#emergency{
+    display: flex;
+    justify-content: space-between;
+}
+
+#emergency > p:nth-child(1){
+    font-size: 16px;
+}
+
+#emergency > p:nth-child(2){
+    font-size: 14px;
+}
+
+#contact{
+    font-size: 15px;
+    color: rgb(133,133,134);
+    line-height: 1.8;
+}
+
 @media screen and (min-width:1040px) and (max-width:1050px){
     #firstnav{
         width: 94%;
