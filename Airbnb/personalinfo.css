@@ -394,7 +394,7 @@
 
     #accountandpersonalinfo{
         width: 90%;
-        height: 1400px;
+        height: 760px;
     }
 
     #accountinfo{
@@ -410,7 +410,7 @@
     #personalinfo{
         width: 100%;
         /* border: 1px solid blue; */
-        height: 600px;
+        height: 400px;
     }
 
     #legalname{
