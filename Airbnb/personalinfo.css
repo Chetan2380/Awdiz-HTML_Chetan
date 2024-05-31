@@ -406,4 +406,18 @@
     #info > p{
         font-size: 22px;
     }
+
+    #personalinfo{
+        width: 100%;
+        /* border: 1px solid blue; */
+        height: 600px;
+    }
+
+    #legalname{
+        margin-top: -15px;
+    }
+
+    #phonenumbers{
+        height: 100px;
+    }
 }
