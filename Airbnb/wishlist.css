@@ -317,6 +317,7 @@
 #main2{
     width: 37%;
     margin-left: 50px;
+    position: relative;
 }
 
 #main2 iframe{
