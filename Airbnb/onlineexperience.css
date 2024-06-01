@@ -89,12 +89,12 @@
 }
 
 #main{
-    width: 90%;
+    width: 100%;
     margin: auto;
 }
 
 #newthisweek{
-    width: 100%;
+    width: 90%;
     height: 100px;
     margin: auto;
     display: flex;
@@ -138,10 +138,11 @@
 
 #cards{
     /* border: 1px solid red; */
-    width: 100%;
+    width: 90%;
     height: 400px;
     display: flex;
     justify-content: space-between;
+    margin: auto;
 }
 
 #mostpopulararoundworld{
@@ -216,7 +217,8 @@
 }
 
 #planatripwithhelp{
-    width: 100%;
+    width: 90%;
+    margin: auto;
 }
 
 #plantrip{
@@ -274,29 +276,85 @@
 }
 
 #planatripcards{
-    width: 100%;
+    width: 90%;
     /* border: 2px solid black; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: auto;
 }
 
 .image_div{
     /* border: 2px solid red; */
-    width: 15.5%;
+    width: 15.7%;
     height: 466px;
     margin-bottom: 30px;
 }
 
 .childrenDiv {
     /* border: 2px solid red; */
-    height: 270px;
+    height: 290px;
     width: 100%;
     border-radius: 10px;
     margin-top: 10px;
     background-size: cover;
     background-position: 50% 50%;
     background-image: url("https://a0.muscache.com/im/pictures/lombard/MtTemplate-5121505-media_library/original/ad81cdd5-4934-4ac5-9789-a1711cb81523.jpeg?im_w=720");
+  }
+
+  .childrenDiv1 {
+    /* border: 2px solid red; */
+    height: 290px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url("https://a0.muscache.com/im/pictures/lombard/MtTemplate-5121821-media_library/original/56919bf1-cf07-45bc-8e76-142af7dfe67c.jpeg?im_w=720");
+  }
+
+  .childrenDiv2 {
+    /* border: 2px solid red; */
+    height: 290px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url("https://a0.muscache.com/im/pictures/lombard/MtTemplate-5130830-media_library/original/953365ba-fff1-4580-aca7-36552116f908.jpeg?im_w=720");
+  }
+
+  .childrenDiv3 {
+    /* border: 2px solid red; */
+    height: 290px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url("https://a0.muscache.com/im/pictures/lombard/MtTemplate-5148418-media_library/original/c3bd881a-d65b-4ca2-855c-777ba2016a70.jpeg?im_w=720");
+  }
+
+  .childrenDiv4 {
+    /* border: 2px solid red; */
+    height: 290px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url("https://a0.muscache.com/im/pictures/lombard/MtTemplate-2496585-poster/original/e6de8fae-018d-4411-b0a3-81bbb6e4e5c3.jpeg?im_w=720");
+  }
+
+  .childrenDiv5 {
+    /* border: 2px solid red; */
+    height: 290px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url("https://a0.muscache.com/im/pictures/lombard/MtTemplate-2596268-active_media/original/b0aa65da-e3f6-4bd2-91d3-9e2f127f348a.jpg?im_w=720");
   }
 
   .guestfav{
@@ -313,14 +371,14 @@
     font-size: 22px;
     color: black;
     position: absolute;
-    left: 167px;
-    top: 15px;
+    left: 170px;
+    top: 16px;
     opacity: 0.6;
 }
 
 .guestfav > i:nth-child(2){
     font-size: 24px;
-    color: black;
+    color: white;
     position: absolute;
     top: 15px;
 }
@@ -336,7 +394,82 @@
     margin-top: 10px;
 }
 
+.placedescrip1{
+    font-size: 16px;
+    line-height: 1.3;
+    margin-top: 6px;
+}
+
+.star1{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.placedescrip2{
+    font-size: 16px;
+    line-height: 1.3;
+    margin-top: 6px;
+}
+
+.star2{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.placedescrip3{
+    font-size: 16px;
+    line-height: 1.3;
+    margin-top: 6px;
+}
+
+.star3{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.placedescrip4{
+    font-size: 16px;
+    line-height: 1.3;
+    margin-top: 6px;
+}
+
+.star4{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.placedescrip5{
+    font-size: 16px;
+    line-height: 1.3;
+    margin-top: 6px;
+}
+
+.star5{
+    font-size: 15px;
+    margin-top: 10px;
+}
+
 .star > i{
+    font-size: 12px;
+}
+
+.star1 > i{
+    font-size: 12px;
+}
+
+.star2 > i{
+    font-size: 12px;
+}
+
+.star3 > i{
+    font-size: 12px;
+}
+
+.star4 > i{
+    font-size: 12px;
+}
+
+.star5 > i{
     font-size: 12px;
 }
 
@@ -360,6 +493,10 @@
 
     #leftright{
         width: 8%;
+    }
+
+    #cards{
+        width: 92.5%;
     }
 
     .showall{
@@ -391,8 +528,40 @@
         margin-left: 45px;
     }
 
+    #planatripwithhelp{
+        width: 92.5%;
+    }
+
     #plantrip1{
         display: none;
+    }
+
+    #planatripcards{
+        width: 96%;
+        margin-top: 10px;
+    }
+
+    .image_div{
+        /* border: 2px solid red; */
+        width: 24%;
+        height: 466px;
+        margin-bottom: 30px;
+    }
+
+    .childrenDiv, .childrenDiv1, .childrenDiv2, .childrenDiv3{
+        height: 320px;
+    }
+
+    .childrenDiv4, .childrenDiv5{
+        display: none;
+    }
+
+    .placedescrip4, .star4, .placedescrip5, .star5{
+        display: none;
+    }
+
+    .guestfav > i:nth-child(1){
+        left: 192px;
     }
 }
 
@@ -413,6 +582,10 @@
 
     #secondnav{
         display: none;
+    }
+
+    #cards{
+        width: 92.5%;
     }
 
     #leftright{
@@ -448,8 +621,40 @@
         margin-left: 26px;
     }
 
+    #planatripwithhelp{
+        width: 92.5%;
+    }
+
     #plantrip1{
         display: none;
+    }
+
+    #planatripcards{
+        width: 96%;
+        margin-top: 10px;
+    }
+
+    .image_div{
+        /* border: 2px solid red; */
+        width: 32.33%;
+        height: 466px;
+        margin-bottom: 30px;
+    }
+
+    .childrenDiv, .childrenDiv1, .childrenDiv2, .childrenDiv3{
+        height: 320px;
+    }
+
+    .childrenDiv3, .childrenDiv4, .childrenDiv5{
+        display: none;
+    }
+
+    .placedescrip3, .star3, .placedescrip4, .star4, .placedescrip5, .star5{
+        display: none;
+    }
+
+    .guestfav > i:nth-child(1){
+        left: 192px;
     }
 }
 
@@ -533,5 +738,33 @@
 
     #plantrip1 > i{
         margin-top: 4px;
+    }
+
+    #planatripcards{
+        width: 90%;
+        margin-top: 10px;
+    }
+
+    .image_div{
+        /* border: 2px solid red; */
+        width: 49%;
+        height: 466px;
+        margin-bottom: 30px;
+    }
+
+    .childrenDiv, .childrenDiv1, .childrenDiv2, .childrenDiv3{
+        height: 320px;
+    }
+
+    .childrenDiv2, .childrenDiv3, .childrenDiv4, .childrenDiv5{
+        display: none;
+    }
+
+    .placedescrip2, .star2, .placedescrip3, .star3, .placedescrip4, .star4, .placedescrip5, .star5{
+        display: none;
+    }
+
+    .guestfav > i:nth-child(1){
+        left: 160px;
     }
 }
