@@ -183,7 +183,7 @@
   .image_div{
     /* border: 2px solid red; */
     width: 31.5%;
-    height: 436px;
+    height: 466px;
     margin-bottom: 30px;
 }
 
@@ -279,10 +279,12 @@
 
 .rating{
     font-size: 15px;
+    color: rgb(116,116,116);
 }
 
 .rupee{
     line-height: 2.3;
+    color: black;
 }
 
 .place{
@@ -300,10 +302,10 @@
 }
 
 .guestfav > i:nth-child(1){
-    font-size: 23px;
+    font-size: 22px;
     color: rgb(255,56,92);
     position: absolute;
-    left: 233px;
+    left: 234px;
     top: 15px;
 }
 
@@ -314,21 +316,128 @@
     top: 15px;
 }
 
-#main2{
-    width: 37%;
-    margin-left: 50px;
-    position: relative;
+.placedescrip{
+    font-size: 15px;
+    color: rgb(116,116,116);
+    line-height: 1.5;
 }
 
-#main2 iframe{
-    width: 100%;
+#main2{
+    width: 37%;
     height: 656px;
+    margin-left: 50px;
+    /* position: relative; */
     position: sticky;
-    z-index: 999;
     top: 82px;
     background-color: white;
 }
 
+
+
+#maps iframe{
+    width: 100%;
+    height: 656px;
+}
+
+.priceheart{
+    width: 18%;
+    height: 30px;
+    border-radius: 15px;
+    position: absolute;
+    top: 270px;
+    left: 160px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
+    box-shadow: 0 0 10px 3px rgb(136, 135, 135);
+}
+
+.priceheart > p{
+    margin-left: 10px;
+}
+
+.priceheart > i{
+    margin-right: 10px;
+    color: rgb(255,56,92);
+    font-size: 12px;
+}
+
+.priceheart1{
+    width: 18%;
+    height: 30px;
+    border-radius: 15px;
+    position: absolute;
+    top: 400px;
+    left: 260px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
+    box-shadow: 0 0 10px 3px rgb(136, 135, 135);
+}
+
+.priceheart1 > p{
+    margin-left: 10px;
+}
+
+.priceheart1 > i{
+    margin-right: 10px;
+    color: rgb(255,56,92);
+    font-size: 12px;
+}
+
+.priceheart2{
+    width: 18%;
+    height: 30px;
+    border-radius: 15px;
+    position: absolute;
+    top: 340px;
+    left: 150px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
+    box-shadow: 0 0 10px 3px rgb(136, 135, 135);
+}
+
+.priceheart2 > p{
+    margin-left: 10px;
+}
+
+.priceheart2 > i{
+    margin-right: 10px;
+    color: rgb(255,56,92);
+    font-size: 12px;
+}
+
+.priceheart3{
+    width: 18%;
+    height: 30px;
+    border-radius: 15px;
+    position: absolute;
+    top: 130px;
+    left: 160px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
+    box-shadow: 0 0 10px 3px rgb(136, 135, 135);
+}
+
+.priceheart3 > p{
+    margin-left: 10px;
+}
+
+.priceheart3 > i{
+    margin-right: 10px;
+    color: rgb(255,56,92);
+    font-size: 12px;
+}
 
 @media screen and (min-width:1040px) and (max-width:1050px){
     #firstnav{
@@ -409,15 +518,35 @@
 
     #main2{
         width: 48%;
+        height: 656px;
         margin-left: 50px;
+        /* position: relative; */
+        position: sticky;
+        top: 82px;
+        background-color: white;
+    }
+    
+    
+    
+    #maps iframe{
+        width: 100%;
+        height: 656px;
     }
 
-    #main2 iframe{
-        width: 100%;
-        height: 550px;
-        position: sticky;
-        z-index: 999;
-        top: 85px;
+    .priceheart{
+        width: 20%;
+    }
+
+    .priceheart1{
+        width: 20%;
+    }
+
+    .priceheart2{
+        width: 20%;
+    }
+
+    .priceheart3{
+        width: 20%;
     }
 }
 
@@ -436,7 +565,11 @@
     }
     
     #datesguestshare{
-        width: 66%;
+        width: 38%;
+    }
+
+    #farmtwentyfour{
+        font-size: 22px;
     }
 
     #farms1{
@@ -526,7 +659,7 @@
     }
 
     #farms1{
-        width: 90%;
+        width: 100%;
         height: 160px;
         /* border: 1px solid red; */
         margin-left: 25px;
@@ -609,7 +742,7 @@
     .image_div{
         /* border: 2px solid red; */
         width: 100%;
-        height: 566px;
+        height: 580px;
         margin-bottom: 30px;
     }
 
@@ -653,8 +786,12 @@
         font-size: 23px;
         color: rgb(255,56,92);
         position: absolute;
-        left: 345px;
+        left: 344px;
         top: 15px;
+    }
+
+    .placename{ 
+        margin-top: 8px;
     }
 
     #main2{

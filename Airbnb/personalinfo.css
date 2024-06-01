@@ -717,6 +717,7 @@
     
     #airbnb p{
         font-size: 14px;
+        margin-left: 8px;
     }
 
     #footer{
@@ -815,6 +816,10 @@
     }
 
     #whywhichwhat{
+        display: none;
+    }
+
+    #footer{
         display: none;
     }
 }
