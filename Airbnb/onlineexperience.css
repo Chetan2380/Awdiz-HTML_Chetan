@@ -458,6 +458,7 @@
 #planatripcards{
     width: 90%;
     /* border: 2px solid black; */
+    height: 500px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -657,6 +658,66 @@
     margin-top: 6px;
     color: black;
 }
+
+#topseller{
+    width: 90%;
+    margin: auto;
+}
+
+#top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#top > p:nth-child(1){
+    font-size: 22px;
+}
+
+#showleftright1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 12%;
+}
+
+#showleftright1 > p:nth-child(1){
+    font-size: 14px;
+}
+
+#leftright2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 48%;
+}
+
+#left2{
+    width:33px;
+    height: 33px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid rgb(223,223,223);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#right2{
+    width:33px;
+    height: 33px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid rgb(223,223,223);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#plantrip2{
+    display: none;
+}
+
 
 @media screen and (min-width:1040px) and (max-width:1050px){
     #firstnav{
