@@ -551,10 +551,11 @@
 .guestfav > i:nth-child(1){
     font-size: 22px;
     color: black;
-    position: absolute;
-    left: 170px;
-    top: 16px;
-    opacity: 0.6;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    padding-top: 7px;
+    padding-right: 1px;
 }
 
 .guestfav > i:nth-child(2){
@@ -718,6 +719,89 @@
     display: none;
 }
 
+#topsellercards{
+    width: 90%;
+    /* border: 2px solid black; */
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.image_div{
+    /* border: 2px solid red; */
+    width: 15.7%;
+    height: 466px;
+    margin-bottom: 30px;
+}
+
+.topsellerchildrenDiv {
+    /* border: 2px solid red; */
+    height: 290px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url("https://a0.muscache.com/im/pictures/lombard/MtTemplate-1692296-media_library/original/3bc48e00-d45e-4440-ae48-e563f94a0c2a.jpeg?im_w=720");
+  }
+
+  .topsellerchildrenDiv1 {
+    /* border: 2px solid red; */
+    height: 290px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url("https://a0.muscache.com/im/pictures/lombard/MtTemplate-2494046-media_library/original/bb546ed3-b0ac-42bc-9197-6d8c9a9b5cdd.jpeg?im_w=720");
+  }
+
+  .topsellerchildrenDiv2 {
+    /* border: 2px solid red; */
+    height: 290px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url("https://a0.muscache.com/im/pictures/lombard/MtTemplate-1670646-media_library/original/9480f17a-cc94-4a75-87eb-78dc3dbc1baa.jpeg?im_w=720");
+  }
+
+  .topsellerchildrenDiv3 {
+    /* border: 2px solid red; */
+    height: 290px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url("https://a0.muscache.com/im/pictures/lombard/MtTemplate-2488030-media_library/original/a7742fb4-e6bc-45a3-ad8d-9e37afeec600.jpeg?im_w=720");
+  }
+
+  .topsellerchildrenDiv4 {
+    /* border: 2px solid red; */
+    height: 290px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url("https://a0.muscache.com/im/pictures/lombard/MtTemplate-1655017-poster/original/94483e4d-7493-46ad-bddc-d3780d2d59b2.jpg?im_w=720");
+  }
+
+  .topsellerchildrenDiv5 {
+    /* border: 2px solid red; */
+    height: 290px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url("https://a0.muscache.com/im/pictures/lombard/MtTemplate-1710354-poster/original/932fc164-dfb7-47ba-aaf7-1a66fbfbdc74.jpeg?im_w=720");
+  }
+
 
 @media screen and (min-width:1040px) and (max-width:1050px){
     #firstnav{
@@ -801,10 +885,31 @@
         display: none;
     }
 
-    .guestfav > i:nth-child(1){
-        left: 192px;
+    #topseller{
+        width: 92.5%;
     }
 
+    #leftright2{
+        display: none;
+    }
+
+    #showleftright1 > p:nth-child(1){
+        font-size: 14px;
+        margin-left: 45px;
+    }
+
+    #topsellercards{
+        width: 96%;
+        margin-top: 10px;
+    }
+
+    .topsellerchildrenDiv, .topsellerchildrenDiv1, .topsellerchildrenDiv2, .topsellerchildrenDiv3{
+        height: 320px;
+    }
+
+    .topsellerchildrenDiv4, .topsellerchildrenDiv5{
+        display: none;
+    }
 
     #datesguestshare{
         width: 28%;
@@ -939,8 +1044,30 @@
         display: none;
     }
 
-    .guestfav > i:nth-child(1){
-        left: 192px;
+    #leftright2{
+        display: none;
+    }
+
+    #showleftright1 > p:nth-child(1){
+        font-size: 14px;
+        margin-left: 26px;
+    }
+
+    #topseller{
+        width: 92.5%;
+    }
+
+    #topsellercards{
+        width: 96%;
+        margin-top: 10px;
+    }
+
+    .topsellerchildrenDiv, .topsellerchildrenDiv1, .topsellerchildrenDiv2, .topsellerchildrenDiv3{
+        height: 320px;
+    }
+
+    .topsellerchildrenDiv3, .topsellerchildrenDiv4, .topsellerchildrenDiv5{
+        display: none;
     }
 
     #datesguestshare{
@@ -1074,7 +1201,7 @@
         margin-bottom: 30px;
     }
 
-    .childrenDiv, .childrenDiv1, .childrenDiv2, .childrenDiv3{
+    .childrenDiv, .childrenDiv1{
         height: 320px;
     }
 
@@ -1086,8 +1213,36 @@
         display: none;
     }
 
-    .guestfav > i:nth-child(1){
-        left: 160px;
+    #top{
+        display: none;
+    }
+
+    #plantrip2{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #plantrip2 > p{
+        font-size: 21px;
+        width: 90%;
+    }
+
+    #plantrip2 > i{
+        margin-top: 4px;
+    }
+
+    #topsellercards{
+        width: 90%;
+        margin-top: 10px;
+    }
+
+    .topsellerchildrenDiv, .topsellerchildrenDiv1{
+        height: 320px;
+    }
+
+    .topsellerchildrenDiv2, .topsellerchildrenDiv3, .topsellerchildrenDiv4, .topsellerchildrenDiv5{
+        display: none;
     }
 
     #datesguestshare{
@@ -1114,7 +1269,6 @@
         width: 100%;
     }
 
-    
     #cooking, #dance, #drinks, #entertainment, #artsandwriting, #baking, #familyfriendly, #animals, .pipesymbol, #right2{
         display: none;
     }
