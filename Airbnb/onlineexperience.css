@@ -139,7 +139,7 @@
 #cards{
     /* border: 1px solid red; */
     width: 90%;
-    height: 400px;
+    height: 370px;
     display: flex;
     justify-content: space-between;
     margin: auto;
@@ -214,6 +214,186 @@
     color: white;
     line-height: 1.1;
     margin-top: 8px;
+}
+
+#datesguestfilter{
+    width: 90%;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#datesguestshare{
+    width: 22%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#dates{
+    border: 1px solid rgb(200,200,200);
+    width: 22%;
+    height: 32px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+#groupsize{
+    border: 1px solid rgb(200,200,200);
+    width: 34%;
+    height: 32px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+#morefilaters{
+    border: 1px solid rgb(200,200,200);
+    width: 34%;
+    height: 32px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 14px;
+}
+
+.pipesymbol{
+    border-left: 1px solid rgb(200,200,200);
+    height: 30px;
+    width: 2%;
+}
+
+#greatfamilyanimals{
+    width: 74%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+    margin-left: -22px;
+}
+
+#greatforgroups{
+    border: 1px solid rgb(242,242,242);
+    width: 12.5%;
+    height: 32px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 14px;
+    background-color: rgb(242,242,242);
+}
+
+#familyfriendly{
+    border: 1px solid rgb(242,242,242);
+    width: 12%;
+    height: 32px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 14px;
+    background-color: rgb(242,242,242);
+}
+
+#animals{
+    border: 1px solid rgb(242,242,242);
+    width: 7%;
+    height: 32px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 14px;
+    background-color: rgb(242,242,242);
+}
+
+#artsandwriting{
+    border: 1px solid rgb(242,242,242);
+    width: 12%;
+    height: 32px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 14px;
+    background-color: rgb(242,242,242);
+}
+
+#baking{
+    border: 1px solid rgb(242,242,242);
+    width: 7%;
+    height: 32px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 14px;
+    background-color: rgb(242,242,242);
+}
+
+#cooking{
+    border: 1px solid rgb(242,242,242);
+    width: 7%;
+    height: 32px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 14px;
+    background-color: rgb(242,242,242);
+}
+
+#dance{
+    border: 1px solid rgb(242,242,242);
+    width: 7%;
+    height: 32px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 14px;
+    background-color: rgb(242,242,242);
+}
+
+#drinks{
+    border: 1px solid rgb(242,242,242);
+    width: 7%;
+    height: 32px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 14px;
+    background-color: rgb(242,242,242);
+}
+
+#entertainment{
+    border: 1px solid rgb(242,242,242);
+    width: 11%;
+    height: 32px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 14px;
+    background-color: rgb(242,242,242);
+}
+
+#right2{
+    width:33px;
+    height: 33px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid rgb(223,223,223);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #planatripwithhelp{
@@ -563,6 +743,51 @@
     .guestfav > i:nth-child(1){
         left: 192px;
     }
+
+
+    #datesguestshare{
+        width: 28%;
+    }
+    
+    #dates{
+        width: 26%;
+    }
+    
+    #groupsize{
+        width: 33%;
+    }
+    
+    #morefilaters{
+        width: 33%;
+    }
+
+    #greatfamilyanimals{
+        width: 65%;
+    }
+
+    #greatforgroups{
+        width: 21%;
+    }
+    
+    #familyfriendly{
+        width: 21%;
+    }
+    
+    #animals{
+        width: 11%;
+    }
+    
+    #artsandwriting{
+        width: 21%;
+    }
+    
+    #baking{
+        width: 11%;
+    }
+
+    #cooking, #dance, #drinks, #entertainment{
+        display: none;
+    }
 }
 
 
@@ -655,6 +880,42 @@
 
     .guestfav > i:nth-child(1){
         left: 192px;
+    }
+
+    #datesguestshare{
+        width: 38%;
+    }
+    
+    #dates{
+        width: 26%;
+    }
+    
+    #groupsize{
+        width: 34%;
+    }
+    
+    #morefilaters{
+        width: 34%;
+    }
+
+    #greatfamilyanimals{
+        width: 52%;
+    }
+
+    #greatforgroups{
+        width: 30%;
+    }
+    
+    #familyfriendly{
+        width: 30%;
+    }
+    
+    #animals{
+        width: 20%;
+    }
+    
+    #cooking, #dance, #drinks, #entertainment, #artsandwriting, #baking{
+        display: none;
     }
 }
 
@@ -766,5 +1027,34 @@
 
     .guestfav > i:nth-child(1){
         left: 160px;
+    }
+
+    #datesguestshare{
+        width: 65%;
+    }
+    
+    #dates{
+        width: 28%;
+    }
+    
+    #groupsize{
+        width: 32%;
+    }
+    
+    #morefilaters{
+        width: 32%;
+    }
+
+    #greatfamilyanimals{
+        width: 28%;
+    }
+
+    #greatforgroups{
+        width: 100%;
+    }
+
+    
+    #cooking, #dance, #drinks, #entertainment, #artsandwriting, #baking, #familyfriendly, #animals, .pipesymbol, #right2{
+        display: none;
     }
 }
