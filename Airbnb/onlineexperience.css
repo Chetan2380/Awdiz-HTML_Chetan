@@ -1691,6 +1691,10 @@
     #webcurrsocial{
         width: 38%;
     }
+
+    #load{
+        width: 13.5%;
+    }
 }
 
 
@@ -1974,6 +1978,10 @@
 
     #webcurrsocial{
         width: 38%;
+    }
+
+    #load{
+        width: 15.5%;
     }
 }
 
@@ -2273,22 +2281,9 @@
     }
 
     #load{
-        background-color: black;
         width: 30.5%;
-        height: 50px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 10px;
-        color: white;
     }
     
-    #loadmore{
-        display: flex;
-        justify-content: center;
-        height: 100px;
-    }
-
     #footer{
         display: none;
     }
