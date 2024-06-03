@@ -8,7 +8,7 @@
 #parentdiv{
     width: 100%;
     /* border: 2px solid red; */
-    height: 5460px;
+    height: 3618px;
     margin: auto;
 }
 
@@ -1630,6 +1630,67 @@
     .makeplanschildrenDiv4, .makeplanschildrenDiv5{
         display: none;
     }
+
+    #suphosair1{
+        width: 92%;
+        margin: auto;
+        /* margin-left: 40px; */
+        height: 290px;
+    }
+
+    #support p{
+        font-size: 14px;
+    }
+
+    #hosting{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    #hosting p{
+        font-size: 14px;
+    }
+
+    #airbnb{
+        /* margin-left: 40px; */
+        margin-right: 140px;
+    }
+    
+    #airbnb p{
+        font-size: 14px;
+    }
+
+    #footer{
+        width: 100%;
+        background-color: rgb(247,247,247);
+        height: 450px;
+    }
+
+    #footer1{
+        width: 75%;
+        height: 70px;
+        margin-left: 138px;
+        /* border: 1px solid red; */
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+        background-color: rgb(247,247,247);
+    }
+
+    #footer1text span{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    #footer1text p{
+        font-size: 14px;
+    }
+
+    #webcurrsocial{
+        width: 38%;
+    }
 }
 
 
@@ -1853,12 +1914,73 @@
     .makeplanschildrenDiv3, .makeplanschildrenDiv4, .makeplanschildrenDiv5{
         display: none;
     }
+
+    #suphosair1{
+        width: 92%;
+        margin: auto;
+        /* margin-left: 40px; */
+        height: 290px;
+    }
+
+    #support p{
+        font-size: 14px;
+    }
+
+    #hosting{
+        margin-left:30px;
+        margin-right: 0px;
+    }
+
+    #hosting p{
+        font-size: 14px;
+    }
+
+    #airbnb{
+        /* margin-left: 40px; */
+        margin-right: 70px;
+    }
+    
+    #airbnb p{
+        font-size: 14px;
+    }
+
+    #footer{
+        width: 100%;
+        background-color: rgb(247,247,247);
+        height: 450px;
+    }
+
+    #footer1{
+        width: 75%;
+        height: 70px;
+        margin-left: 108px;
+        /* border: 1px solid red; */
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+        background-color: rgb(247,247,247);
+    }
+
+    #footer1text span{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    #footer1text p{
+        font-size: 14px;
+    }
+
+    #webcurrsocial{
+        width: 38%;
+    }
 }
 
 
 @media screen and (max-width:460px){
     #parentdiv{
-        height: 850px;
+        height: 2928px;
     }
 
     #navbar{
@@ -2122,7 +2244,24 @@
 
     #makeplanscards{
         width: 90%;
+        height: 420px;
         margin-top: 10px;
+    }
+
+    #greatforgroupscards > .image_div:nth-child(3),#greatforgroupscards > .image_div:nth-child(4){
+        display: none;
+    }
+
+    #greatforgroupscards > .image_div:nth-child(5), #greatforgroupscards > .image_div:nth-child(6){
+        display: none;
+    }
+
+    #makeplanscards > .image_div:nth-child(3),#makeplanscards > .image_div:nth-child(4){
+        display: none;
+    }
+
+    #makeplanscards > .image_div:nth-child(5), #makeplanscards > .image_div:nth-child(6){
+        display: none;
     }
 
     .makeplanschildrenDiv, .makeplanschildrenDiv1{
@@ -2130,6 +2269,27 @@
     }
 
     .makeplanschildrenDiv2, .makeplanschildrenDiv3, .makeplanschildrenDiv4, .makeplanschildrenDiv5{
+        display: none;
+    }
+
+    #load{
+        background-color: black;
+        width: 30.5%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        color: white;
+    }
+    
+    #loadmore{
+        display: flex;
+        justify-content: center;
+        height: 100px;
+    }
+
+    #footer{
         display: none;
     }
 }
