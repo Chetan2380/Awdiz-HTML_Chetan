@@ -1287,6 +1287,108 @@
     background-image: url("https://a0.muscache.com/im/pictures/2d6f82ab-496a-48b0-9ce0-e6e2c04387eb.jpg?im_w=720");
   }
 
+  #load{
+    background-color: black;
+    width: 8.5%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: white;
+}
+
+#loadmore{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+#suphosair{
+    width: 100%;
+    height: 350px;
+    /* border: 1px solid red; */
+    background-color: rgb(247,247,247);
+    padding-top: 40px;
+    /* border-top: 1px solid rgb(200,200,200); */
+}
+
+#suphosair1{
+    width: 75%;
+    margin-left: 188px;
+    height: 300px;
+    border-bottom: 1px solid rgb(200,200,200);
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(247,247,247);
+}
+
+#support p{
+    line-height: 2.2;
+    font-size: 15px;
+}
+
+#hosting{
+    margin-left: -50px;
+}
+
+#hosting p{
+    line-height: 2.2;
+    font-size: 15px;
+}
+
+#airbnb{
+    margin-right: 190px;
+}
+
+#airbnb p{
+    line-height: 2.2;
+    font-size: 15px;
+}
+
+#footer{
+    width: 100%;
+    background-color: rgb(247,247,247);
+}
+
+#footer1{
+    width: 75%;
+    height: 70px;
+    margin-left: 188px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(247,247,247);
+    font-size: 15px;
+}
+
+#webcurrsocial{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#webeng{
+    margin-left: 16px;
+    font-size: 14px;
+}
+
+#currency{
+    font-size: 14px;
+}
+
+#social{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#social i{
+    font-size: 21px;
+}
+
 @media screen and (min-width:1040px) and (max-width:1050px){
     #firstnav{
         width: 94%;
