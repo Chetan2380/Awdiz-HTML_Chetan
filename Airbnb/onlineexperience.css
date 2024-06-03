@@ -8,7 +8,7 @@
 #parentdiv{
     width: 100%;
     /* border: 2px solid red; */
-    height: 1460px;
+    height: 5460px;
     margin: auto;
 }
 
@@ -862,6 +862,288 @@
     display: none;
 }
 
+#startinginnextcards{
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#discoverterracotta{
+    border: 1px solid rgb(223,223,223);
+    width: 32.5%;
+    height: 200px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+#discoverterracotta > i:nth-child(3){
+    display: flex;
+    justify-content: flex-end;
+    font-size: 19px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+#discoverterracottaimg{
+    background-image: url("https://a0.muscache.com/im/pictures/lombard/MtTemplate-2426642-media_library/original/35cd0ee8-d67c-45ea-a188-333546cb3bdd.jpeg?im_w=720");
+    width: 40%;
+    height: 85%;
+    border-radius: 12px;
+    background-size: cover;
+    background-position: 50% 50%;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+#discoverterracottadecp{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.placedescrip6{
+    font-size: 15px;
+    line-height: 1.3;
+    margin-top: 6px;
+}
+
+.star6{
+    font-size: 12px;
+    margin-top: 40px;
+}
+
+.star6 > i{
+    font-size: 9px;
+}
+
+.time{
+    border: 1px solid black;
+    width: 29%;
+    height: 32px;
+    border-radius: 6px;
+    background-color: white;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#fungiant{
+    border: 1px solid rgb(223,223,223);
+    width: 32.5%;
+    height: 200px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+#fungiant > i:nth-child(3){
+    display: flex;
+    justify-content: flex-end;
+    font-size: 19px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+#fungiantimg{
+    background-image: url("https://a0.muscache.com/im/pictures/lombard/MtTemplate-2016483-media_library/original/a90f47b0-0111-416c-a8b6-1a80dc6aa6cb.jpeg?im_w=720");
+    width: 40%;
+    height: 85%;
+    border-radius: 12px;
+    background-size: cover;
+    background-position: 50% 50%;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+#fungiantdecp{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+#planatriptotajmahal{
+    border: 1px solid rgb(223,223,223);
+    width: 32.5%;
+    height: 200px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+#planatriptotajmahal > i:nth-child(3){
+    display: flex;
+    justify-content: flex-end;
+    font-size: 19px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+#planatriptotajmahalimg{
+    background-image: url("https://a0.muscache.com/im/pictures/lombard/MtTemplate-3237790-media_library/original/1110124c-e16d-4578-9200-e1521a21ed06.jpeg?im_w=720");
+    width: 40%;
+    height: 85%;
+    border-radius: 12px;
+    background-size: cover;
+    background-position: 50% 50%;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+#planatriptotajmahaldecp{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+#greatforgroups1{
+    width: 90%;
+    margin: auto;
+}
+
+#great{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#great > p:nth-child(1){
+    font-size: 22px;
+}
+
+#showleftright1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 12%;
+}
+
+#showleftright1 > p:nth-child(1){
+    font-size: 14px;
+}
+
+#leftright2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 48%;
+}
+
+#left2{
+    width:33px;
+    height: 33px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid rgb(223,223,223);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#right2{
+    width:33px;
+    height: 33px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid rgb(223,223,223);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#great1{
+    display: none;
+}
+
+#greatforgroupscards{
+    width: 90%;
+    /* border: 2px solid black; */
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.image_div{
+    /* border: 2px solid red; */
+    width: 15.7%;
+    height: 466px;
+    margin-bottom: 30px;
+}
+
+.greatforgroupschildrenDiv {
+    /* border: 2px solid red; */
+    height: 290px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url("https://a0.muscache.com/im/pictures/lombard/MtTemplate-1485488-media_library/original/0b02429d-ff66-43c1-96bf-c37eeaa29685.jpeg?im_w=720");
+  }
+
+  .greatforgroupschildrenDiv1 {
+    /* border: 2px solid red; */
+    height: 290px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url("https://a0.muscache.com/im/pictures/lombard/MtTemplate-1654052-poster/original/ef371e68-c633-4293-84e8-46d07fd3eecb.jpg?im_w=720");
+  }
+
+  .greatforgroupschildrenDiv2 {
+    /* border: 2px solid red; */
+    height: 290px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url("https://a0.muscache.com/im/pictures/lombard/MtTemplate-1679851-media_library/original/193f8bd7-088f-4b16-90a3-0e28218e446c.jpeg?im_w=720");
+  }
+
+  .greatforgroupschildrenDiv3 {
+    /* border: 2px solid red; */
+    height: 290px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url("https://a0.muscache.com/im/pictures/lombard/MtTemplate-1695301-media_library/original/8b131331-3e93-44ed-a110-7cf1ba22f3ba.jpeg?im_w=720");
+  }
+
+  .greatforgroupschildrenDiv4 {
+    /* border: 2px solid red; */
+    height: 290px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url("https://a0.muscache.com/im/pictures/2d6f82ab-496a-48b0-9ce0-e6e2c04387eb.jpg?im_w=720");
+  }
+
+  .greatforgroupschildrenDiv5 {
+    /* border: 2px solid red; */
+    height: 290px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url("https://a0.muscache.com/im/pictures/lombard/MtTemplate-1661135-poster/original/027394e3-d502-4cb8-9f7f-9a88f41551ba.jpeg?im_w=720");
+  }
 
 @media screen and (min-width:1040px) and (max-width:1050px){
     #firstnav{
@@ -1012,6 +1294,70 @@
     }
 
     #cooking, #dance, #drinks, #entertainment{
+        display: none;
+    }
+
+    #startinginnext{
+        width: 92.5%;
+    }
+
+    #leftright3{
+        display: none;
+    }
+
+    #showleftright2 > p:nth-child(1){
+        font-size: 14px;
+        margin-left: 45px;
+    }
+
+    #startinginnextcards{
+        width: 92.5%;
+        margin-top: 10px;
+    }
+
+    #discoverterracotta{
+        width: 49%;
+    }
+
+    #discoverterracottaimg{
+        width: 35%;
+    }
+
+    #fungiant{
+        width: 49%;
+    }
+
+    #fungiantimg{
+        width: 29%;
+    }
+
+    #planatriptotajmahal{
+        display: none;
+    }
+
+    #greatforgroups1{
+        width: 92.5%;
+    }
+
+    #leftright2{
+        display: none;
+    }
+
+    #showleftright1 > p:nth-child(1){
+        font-size: 14px;
+        margin-left: 45px;
+    }
+
+    #greatforgroupscards{
+        width: 96%;
+        margin-top: 10px;
+    }
+
+    .greatforgroupschildrenDiv, .greatforgroupschildrenDiv1, .greatforgroupschildrenDiv2, .greatforgroupschildrenDiv3{
+        height: 320px;
+    }
+
+    .greatforgroupschildrenDiv4, .greatforgroupschildrenDiv5{
         display: none;
     }
 }
@@ -1165,6 +1511,61 @@
     #cooking, #dance, #drinks, #entertainment, #artsandwriting, #baking{
         display: none;
     }
+
+    #startinginnext{
+        width: 92.5%;
+    }
+
+    #leftright3{
+        display: none;
+    }
+
+    #showleftright2 > p:nth-child(1){
+        font-size: 14px;
+        margin-left: 30px;
+    }
+
+    #startinginnextcards{
+        width: 92.5%;
+        margin-top: 10px;
+    }
+
+    #discoverterracotta{
+        width: 49%;
+    }
+
+    #discoverterracottaimg{
+        width: 55%;
+    }
+
+    #fungiant{
+        width: 49%;
+    }
+
+    #fungiantimg{
+        width: 49%;
+    }
+
+    #planatriptotajmahal{
+        display: none;
+    }
+
+    #greatforgroups1{
+        width: 92.5%;
+    }
+
+    #greatforgroupscards{
+        width: 96%;
+        margin-top: 10px;
+    }
+
+    .greatforgroupschildrenDiv, .greatforgroupschildrenDiv1, .greatforgroupschildrenDiv2, .greatforgroupschildrenDiv3{
+        height: 320px;
+    }
+
+    .greatforgroupschildrenDiv3, .greatforgroupschildrenDiv4, .greatforgroupschildrenDiv5{
+        display: none;
+    }
 }
 
 
@@ -1251,6 +1652,7 @@
 
     #planatripcards{
         width: 90%;
+        height: 410px;
         margin-top: 10px;
     }
 
@@ -1262,7 +1664,7 @@
     }
 
     .childrenDiv, .childrenDiv1{
-        height: 320px;
+        height: 260px;
     }
 
     .childrenDiv2, .childrenDiv3, .childrenDiv4, .childrenDiv5{
@@ -1294,11 +1696,12 @@
 
     #topsellercards{
         width: 90%;
+        height: 450px;
         margin-top: 10px;
     }
 
     .topsellerchildrenDiv, .topsellerchildrenDiv1{
-        height: 320px;
+        height: 260px;
     }
 
     .topsellerchildrenDiv2, .topsellerchildrenDiv3, .topsellerchildrenDiv4, .topsellerchildrenDiv5{
@@ -1330,6 +1733,83 @@
     }
 
     #cooking, #dance, #drinks, #entertainment, #artsandwriting, #baking, #familyfriendly, #animals, .pipesymbol, #right2{
+        display: none;
+    }
+
+    #startinginnext{
+        width: 90%;
+    }
+
+    #starting{
+        display: none;
+    }
+
+    #starting1{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #starting1 > p{
+        font-size: 21px;
+        width: 90%;
+    }
+
+    #starting1 > i{
+        margin-top: 4px;
+    }
+
+    #leftright3{
+        display: none;
+    }
+
+    #startinginnextcards{
+        width: 90%;
+        height: 260px;
+        margin-top: 10px;
+    }
+
+    #discoverterracotta{
+        width: 100%;
+    }
+
+    #discoverterracottaimg{
+        width: 55%;
+    }
+
+    #planatriptotajmahal, #fungiant{
+        display: none;
+    }
+
+    #great{
+        display: none;
+    }
+
+    #great1{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #great1 > p{
+        font-size: 21px;
+        width: 90%;
+    }
+
+    #great1 > i{
+        margin-top: 4px;
+    }
+
+    #greatforgroupscards{
+        width: 90%;
+        margin-top: 10px;
+    }
+
+    .greatforgroupschildrenDiv, .greatforgroupschildrenDiv1{
+        height: 260px;
+    }
+
+    .greatforgroupschildrenDiv2, .greatforgroupschildrenDiv3, .greatforgroupschildrenDiv4, .greatforgroupschildrenDiv5{
         display: none;
     }
 }
