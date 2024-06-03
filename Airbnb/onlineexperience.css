@@ -1145,6 +1145,148 @@
     background-image: url("https://a0.muscache.com/im/pictures/lombard/MtTemplate-1661135-poster/original/027394e3-d502-4cb8-9f7f-9a88f41551ba.jpeg?im_w=720");
   }
 
+#makeplansthisweekend{
+    width: 90%;
+    margin: auto;
+}
+
+#makeplans{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#makeplans > p:nth-child(1){
+    font-size: 22px;
+}
+
+#showleftright1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 12%;
+}
+
+#showleftright1 > p:nth-child(1){
+    font-size: 14px;
+}
+
+#leftright2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 48%;
+}
+
+#left2{
+    width:33px;
+    height: 33px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid rgb(223,223,223);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#right2{
+    width:33px;
+    height: 33px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid rgb(223,223,223);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#makeplans1{
+    display: none;
+}
+
+#makeplanscards{
+    width: 90%;
+    /* border: 2px solid black; */
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.image_div{
+    /* border: 2px solid red; */
+    width: 15.7%;
+    height: 466px;
+    margin-bottom: 30px;
+}
+
+.makeplanschildrenDiv {
+    /* border: 2px solid red; */
+    height: 290px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url("https://a0.muscache.com/im/pictures/lombard/MtTemplate-1496170-media_library/original/1c80a653-f0d9-4ad3-a078-09445877f5c4.jpeg?im_w=720");
+  }
+
+  .makeplanschildrenDiv1 {
+    /* border: 2px solid red; */
+    height: 290px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url("https://a0.muscache.com/im/pictures/82840ace-0ee0-4a12-992d-d2eb480fa0b4.jpg?im_w=720");
+  }
+
+  .makeplanschildrenDiv2 {
+    /* border: 2px solid red; */
+    height: 290px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url("https://a0.muscache.com/im/pictures/lombard/MtTemplate-3694450-media_library/original/eb131efa-bd42-448e-a4ad-0d97475d218d.jpeg?im_w=720");
+  }
+
+  .makeplanschildrenDiv3 {
+    /* border: 2px solid red; */
+    height: 290px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url("https://a0.muscache.com/im/pictures/lombard/MtTemplate-4171957-media_library/original/8c7e15db-e39c-4b29-96a9-aa6569fcee3d.jpg?im_w=720");
+  }
+
+  .makeplanschildrenDiv4 {
+    /* border: 2px solid red; */
+    height: 290px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url("https://a0.muscache.com/im/pictures/lombard/MtTemplate-4576881-media_library/original/72f938a7-dec1-4594-9618-fe7db75dd103.jpeg?im_w=720");
+  }
+
+  .makeplanschildrenDiv5 {
+    /* border: 2px solid red; */
+    height: 290px;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url("https://a0.muscache.com/im/pictures/2d6f82ab-496a-48b0-9ce0-e6e2c04387eb.jpg?im_w=720");
+  }
+
 @media screen and (min-width:1040px) and (max-width:1050px){
     #firstnav{
         width: 94%;
@@ -1360,6 +1502,32 @@
     .greatforgroupschildrenDiv4, .greatforgroupschildrenDiv5{
         display: none;
     }
+
+    #makeplansthisweekend{
+        width: 92.5%;
+    }
+
+    #leftright2{
+        display: none;
+    }
+
+    #showleftright1 > p:nth-child(1){
+        font-size: 14px;
+        margin-left: 45px;
+    }
+
+    #makeplanscards{
+        width: 96%;
+        margin-top: 10px;
+    }
+
+    .makeplanschildrenDiv, .makeplanschildrenDiv1, .makeplanschildrenDiv2, .makeplanschildrenDiv3{
+        height: 320px;
+    }
+
+    .makeplanschildrenDiv4, .makeplanschildrenDiv5{
+        display: none;
+    }
 }
 
 
@@ -1564,6 +1732,23 @@
     }
 
     .greatforgroupschildrenDiv3, .greatforgroupschildrenDiv4, .greatforgroupschildrenDiv5{
+        display: none;
+    }
+
+    #makeplansthisweekend{
+        width: 92.5%;
+    }
+
+    #makeplanscards{
+        width: 96%;
+        margin-top: 10px;
+    }
+
+    .makeplanschildrenDiv, .makeplanschildrenDiv1, .makeplanschildrenDiv2, .makeplanschildrenDiv3{
+        height: 320px;
+    }
+
+    .makeplanschildrenDiv3, .makeplanschildrenDiv4, .makeplanschildrenDiv5{
         display: none;
     }
 }
@@ -1803,6 +1988,7 @@
     #greatforgroupscards{
         width: 90%;
         margin-top: 10px;
+        height: 470px;
     }
 
     .greatforgroupschildrenDiv, .greatforgroupschildrenDiv1{
@@ -1810,6 +1996,38 @@
     }
 
     .greatforgroupschildrenDiv2, .greatforgroupschildrenDiv3, .greatforgroupschildrenDiv4, .greatforgroupschildrenDiv5{
+        display: none;
+    }
+
+    #makeplans{
+        display: none;
+    }
+
+    #makeplans1{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #makeplans1 > p{
+        font-size: 21px;
+        width: 90%;
+    }
+
+    #makeplans1 > i{
+        margin-top: 4px;
+    }
+
+    #makeplanscards{
+        width: 90%;
+        margin-top: 10px;
+    }
+
+    .makeplanschildrenDiv, .makeplanschildrenDiv1{
+        height: 260px;
+    }
+
+    .makeplanschildrenDiv2, .makeplanschildrenDiv3, .makeplanschildrenDiv4, .makeplanschildrenDiv5{
         display: none;
     }
 }
